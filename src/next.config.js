@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: process.env.GITHUB_PAGES ? '/EBPMDB' : '',
+  trailingSlash: true,
+  assetPrefix: process.env.BASE_PATH || '',
+  basePath: process.env.BASE_PATH || '',
+
   // exportPathMaps: async function(defaultPathMap, { dev, dir, outDir, distDir, buildID }) {
   //   return {
   //     '/': { page: '/' },
