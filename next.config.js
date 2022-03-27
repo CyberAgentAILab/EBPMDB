@@ -1,5 +1,5 @@
 //const urlPrefix = process.env.URL_PREFIX ? '/' + process.env.URL_PREFIX : ''
-const urlPrefix = "EBPMDB"
+const urlPrefix = '/EBPMDB'
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
