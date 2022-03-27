@@ -6,7 +6,7 @@ module.exports = {
   assetPrefix: urlPrefix,
   basePath: urlPrefix,
   trailingSlash: true,
-  publicRuntimeConfig: { urlPrefix }, 
+//  publicRuntimeConfig: { urlPrefix }, 
   // exportPathMaps: async function(defaultPathMap, { dev, dir, outDir, distDir, buildID }) {
   //   return {
   //     '/': { page: '/' },
