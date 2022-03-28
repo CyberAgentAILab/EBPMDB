@@ -1,11 +1,12 @@
-const urlPrefix = process.env.URL_PREFIX ? '/' + process.env.URL_PREFIX : ''
+//const urlPrefix = process.env.URL_PREFIX ? '/' + process.env.URL_PREFIX : ''
+const urlPrefix = '/EBPMDB'
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
   assetPrefix: urlPrefix,
   basePath: urlPrefix,
   trailingSlash: true,
-  publicRuntimeConfig: '/EBPMDB', 
+  publicRuntimeConfig: { urlPrefix }, 
   // exportPathMaps: async function(defaultPathMap, { dev, dir, outDir, distDir, buildID }) {
   //   return {
   //     '/': { page: '/' },
