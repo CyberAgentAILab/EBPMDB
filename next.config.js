@@ -5,6 +5,7 @@ module.exports = {
   assetPrefix: urlPrefix,
   basePath: urlPrefix,
   trailingSlash: true,
+  publicRuntimeConfig: '/EBPMDB', 
   // exportPathMaps: async function(defaultPathMap, { dev, dir, outDir, distDir, buildID }) {
   //   return {
   //     '/': { page: '/' },
