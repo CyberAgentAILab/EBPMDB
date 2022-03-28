@@ -15,12 +15,11 @@ interface IProps {
 
 const DCard: FunctionComponent<IProps> = ({ doc }) => {
   const { title, description, tables } = doc
-  const ext = process.env.ENV === 'prd' ? '.html' : ''
   return (
     <Card sx={{ display: 'flex', my: 4, p: 2, boxShadow: '0 19px 25px -17px rgb(2 31 63 / 30%)' }}>
       <Box sx={{ display: 'flex', flexDirection: 'column', width: '50%' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
-          <Link href={`/doc/${doc.slug}${ext}`}>
+          <Link href={`/EBPMDB/doc/${doc.slug}`}>
             <Typography component="h2" variant="h5">{title}</Typography>
           </Link>
           <Typography component="p" variant="body1" sx={{ mt: 2 }}>{description}</Typography>
