@@ -6,7 +6,7 @@ title: "covid-19の休校による児童と家族への影響"
 
 description: "休校による学業外への悪影響"
 
-date: "2022-03-30"
+date: "2022-03-31"
 
 tables: [
 
