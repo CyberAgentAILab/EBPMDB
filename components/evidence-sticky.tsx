@@ -17,7 +17,7 @@ export default function EvidenceSticky() {
             <Typography component="h3" variant="body1">効果</Typography>
             <Typography component="h3" variant="body1">
               証拠の強さ
-              <Link href={`/sms${ext}`}><Help sx={{ position: 'relative', top: '6px' }} /></Link>
+              <Link href={`/EBPM/sms${ext}`}><Help sx={{ position: 'relative', top: '6px' }} /></Link>
             </Typography>
           </Box>
         </CardContent>
