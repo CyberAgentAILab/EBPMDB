@@ -1,7 +1,7 @@
 ---
 id: "16"
-title: "言語活動"
-description: "小学校の授業における言語活動の効果"
+title: "小学校の授業における言語活動"
+description: "ロジカルシンキングを促進するための言語活動の国語と算数の成績に対する効果"
 date: "2022-03-10"
 tables: [
   {
@@ -24,7 +24,7 @@ contacts:
 - 言語活動が教育効果に対してどのような影響があるかを検証することは、実務家、政治家、研究者にとって重要である。
 
 ## 介入
-- 言語活動の程度
+- 授業における言語活動の導入
 
 ## 評価指標
 - 国語と算数のテストの点数
@@ -46,7 +46,7 @@ contacts:
 - 効果は塾に行っている児童の方が高かった
 
 ## 研究の弱点
-- ひとつの市町村のデータでの検証でしかない
+- ひとつの市町村のデータでの検証でしかないため一般化するためにはより多くのデータが必要である
 
 ## 書誌情報
 - Tanaka, R., & Ishizaki, K. (2018). Do teaching practices matter for students’ academic achievement? A case of linguistic activity. Journal of the Japanese and International Economies, 50, 26-36.
