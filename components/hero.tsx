@@ -10,9 +10,10 @@ export default function Hero() {
         </Typography>
         <Typography component='p' variant='body1' className="lead">
         日本国内外で集められたエビデンスを活用して証拠に基づく政策（Evidence Based Policy Making, EBPM）を進めましょう。 
-        </Typography>
-        <Link href="https://github.com/CyberAgentAILab/EBPMDB" underline="hover" color="inherit">GitHubレポジトリ</Link>
-        <Typography component='p' variant='body1' className="lead">からエビデンスを投稿することができます。</Typography>
+        <Link href="https://github.com/CyberAgentAILab/EBPMDB">
+          <a>GitHubレポジトリ</a>
+          </Link>
+        からエビデンスを投稿することができます。</Typography>
       </Container>
     </div>
   )
