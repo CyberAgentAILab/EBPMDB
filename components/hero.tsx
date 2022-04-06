@@ -1,4 +1,5 @@
-import { Container, Typography, Link} from '@mui/material'
+import { Container, Typography} from '@mui/material'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
