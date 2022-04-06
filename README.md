@@ -18,4 +18,4 @@ EBPMデータベースは新たなレビューの投稿、既存レビューへ�
 - レビューのフォーマットやデータベースの実装などについて改善要望がある場合は[Issue](https://github.com/CyberAgentAILab/EBPMDB/issues)を立ててください。
 
 **問い合わせ先**
-- 質問はissueによって公にしていただくことを推奨しますが、個別にやり取りする必要がある場合は [ebpm@cyberagent.co.jp](<mailto:ebpm@cyberagent.co.jp>)までお問い合わせください。
+- 質問はissueによって公にしていただくことを推奨しますが、個別にやり取りする必要がある場合は [メール](<mailto:ebpm@cyberagent.co.jp>)でお問い合わせください。
