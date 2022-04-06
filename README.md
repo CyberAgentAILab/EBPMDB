@@ -4,9 +4,11 @@
 EBPMデータベースは新たなレビューの投稿、既存レビューへのコメントや修正依頼、データベース全体への改善要望を歓迎します。貢献する方法は主に3つあります。
 
 **新たなレビューを投稿する**
-- [EBPMDB/docs](https://github.com/CyberAgentAILab/EBPMDB/tree/main/docs)以下に [テンプレート](https://github.com/CyberAgentAILab/EBPMDB/blob/main/template.md)に従って新たなレビューを投稿することができます。
+- [EBPMDB/docs](https://github.com/CyberAgentAILab/EBPMDB/tree/main/docs)以下の該当のカテゴリに [テンプレート](https://github.com/CyberAgentAILab/EBPMDB/blob/main/template.md)に従って新たなレビューを投稿することができます。
 - 新たなレビューを投稿する方は、この[レポジトリ](https://github.com/CyberAgentAILab/ebpmdb)をフォークして新たなレビューをコミットしプルリクエストを送ってください。
 - データベースの管理者が内容を精査した上でマージします。
+- 留意点
+  - 適当なカテゴリがなければ新規で作成してください。
 
 **レビューへの質問や修正コメントを送る**
 - 直接レビューの修正を行う場合は[EBPMDB/docs](https://github.com/CyberAgentAILab/EBPMDB/tree/main/docs)以下のdocument.mdファイルに直接修正を行ってプルリクを送ってください。データベースの管理者が内容を精査した上でマージします。
