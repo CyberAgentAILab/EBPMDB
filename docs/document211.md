@@ -12,19 +12,19 @@ tables: [
 
 {
 
-"title": "肥満",
+title: "肥満",
 
-"effectiveness": "効果なし",
+effectiveness: "効果なし",
 
-"strength": 4
+strength: 4
 
 },{
 
-"title": "心血管リスク",
+title: "心血管リスク",
 
-"effectiveness": "効果なし",
+effectiveness: "効果なし",
 
-"strength": 4
+strength: 4
 
 }
 
