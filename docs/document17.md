@@ -1,7 +1,7 @@
 ---
 id: "17"
-title: "二つのランダム実験を踏まえた補習教育の効果"
-description: "クラス外の補習とPCプログラム"
+title: "補習とコンピュータ支援学習"
+description: "成績が振るわない小学校3、4年生に対する補習と通常の小学校3、4年生に対する授業外のコンピュータ支援学習が成績に与える効果"
 date: "2022-03-11"
 tables: [
   {
@@ -13,7 +13,8 @@ tables: [
 ]
 
 points:
-    - 補習とPCプログラムのどちらも学力向上に影響があった。
+    - コミュニティの若い女性による補習によって1年目に0.14標準偏差値、2年目に0.28標準偏差値、成績を向上する効果があった
+    - コンピュータ支援学習は1年目に0.35標準偏差、2年目に0.47標準偏差値、成績を向上させた
 
 contacts:
   - 株式会社サイバーエージェントAI Lab, 経済学社会実装チーム
@@ -21,7 +22,8 @@ contacts:
 ---
 
 ## 背景
-The recent World Development Reportでは初等教育は普遍的であるべきとしているが、一方で発展途上国において貧しい人々へ提供している教育が悲惨な状況にあると述べている。例えば、インドの農村部では、全国の学校を無作為に訪問したところ、25％の教師が欠席し、実際に教えていたのは50％に過ぎなかった。生徒や教師の広範な欠席が問題になっていないインドの都市部でさえ、学習レベルは非常に低い。問題は，子どもたちを就学させる方法についてはそれなりに分かっているが，費用対効果の高い方法で学校の質を向上させる方法についてはほとんど分かっていないことである。
+- 発展途上国において貧しい人々へ提供している教育が悲惨な状況にある。例えば、インドの農村部では、全国の学校を無作為に訪問したところ、25％の教師が欠席し、実際に教えていたのは50％に過ぎなかった。生徒や教師の広範な欠席が問題になっていないインドの都市部でさえ、学習レベルは非常に低い。
+- 教育内容についていけない子どもに単純に出席を促すような政策は効果的ではない。本研究では補修とコンピュータ支援学習のふたつの実証実験の結果を示す。
 
 ## 介入
 - 基礎学力の低い小学3,4年生の中からランダムで選ばれた生徒に、トレーニングを受けたコミュニティの若い女性が基礎技能を1日の授業時間4時間のうちの2時間指導する。（Balsakhi Program バルサキプログラム https://www.povertyactionlab.org/evaluation/balsakhi-remedial-tutoring-vadodara-and-mumbai-india）
@@ -54,4 +56,5 @@ The recent World Development Reportでは初等教育は普遍的であるべき
 - 地震の影響によって生徒のバルサキプログラムを受けた日数にばらつきが出ている
 
 ## 書誌情報
-- Remedying Education: Evidence from Two Randomized Experiments in India Abhijit Banerjee, Shawn Cole, Esther Duflo, and Leigh Linden NBER Working Paper No. 11904 December 2005 JEL No. O11, I21        
+- Banerjee, A. V., Cole, S., Duflo, E., & Linden, L. (2007). Remedying Education: Evidence from Two Randomized Experiments in India*. The Quarterly Journal of Economics, 122(3), 1235–1264. https://doi.org/10.1162/qjec.122.3.1235
+     
