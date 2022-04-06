@@ -8,7 +8,7 @@ export default function Hero() {
           EBPMデータベース
         </Typography>
         <Typography component='p' variant='body1' className="lead">
-        過去の研究成果を確認して、証拠に基づく政策（Evidence Based Policy Making, EBPM）を進めましょう。気になった政策分野のタブをクリックすれば、世界中の研究者が実施した実験や研究成果が確認できます。
+        日本国内外で集められたエビデンスを活用して証拠に基づく政策（Evidence Based Policy Making, EBPM）を進めましょう。 <Link href="https://github.com/CyberAgentAILab/EBPMDB" onClick={preventDefault}>GitHubレポジトリ</Link>からエビデンスを投稿することができます。
         </Typography>
       </Container>
     </div>
