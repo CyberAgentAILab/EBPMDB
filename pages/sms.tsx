@@ -1,18 +1,16 @@
-import type { NextPage } from 'next'
-// import Link from 'next/link'
 import Navigation from '../components/navigation'
 import { Container, ThemeProvider} from '@mui/material'
 import { createTheme } from '@mui/material'
-import { Box, Typography, Grid, Link } from '@mui/material'
+import { Typography, Grid, Link } from '@mui/material'
 import EvidenceTableStrength from '../components/evidence-table-strength'
-
+import Footer from '../components/footer'
 import { FunctionComponent } from 'react'
 
 const theme = createTheme({
   palette: {
     primary: {
-      light: '#ff8282',
-      main: '#ff6363',
+      light: '#6C63FF',
+      main: '#6C63FF',
       dark: '#b24545',
       contrastText: '#000',
     },
@@ -72,6 +70,7 @@ const SMS: FunctionComponent = () => {
             </Grid>
           </Grid>
         </Container>
+        <Footer />
       </ThemeProvider>
     </>
   )

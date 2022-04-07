@@ -1,28 +1,23 @@
-import type { NextPage } from 'next'
-import Link from 'next/link'
-import data from '../data.json'
-
-import Hero from '../components/hero'
-import EvidenceCard from '../components/evidence-card'
-import EvidenceSticky from '../components/evidence-sticky'
+import { TopHero } from '../components/hero'
 import Navigation from '../components/navigation'
-import { Container, ThemeProvider} from '@mui/material'
-import { createTheme } from '@mui/material'
-import matter from 'gray-matter'
-import DCard from '../components/card'
-import fs from 'fs'
-import { DocumentMeta } from '../interfaces/document'
+import Footer from '../components/footer'
+import {
+  Container,
+  ThemeProvider,
+  Card,
+  CardContent,
+  Typography,
+  CardActionArea,
+  Grid,
+  createTheme,
+} from '@mui/material'
 import { FunctionComponent } from 'react'
-
-interface IProps {
-  docs: DocumentMeta[]
-}
 
 const theme = createTheme({
   palette: {
     primary: {
-      light: '#ff8282',
-      main: '#ff6363',
+      light: '#6C63FF',
+      main: '#6C63FF',
       dark: '#b24545',
       contrastText: '#000',
     },
@@ -35,39 +30,56 @@ const theme = createTheme({
   },
 })
 
-const Home: FunctionComponent<IProps> = ({ docs }) => {
+const CategoryCard = (props: { categoryLabel: string, description: string, categoryName: string }) => {
+  const { categoryLabel, description, categoryName } = props
+  return (
+    <Card>
+      <CardActionArea style={{ height: '27rem' }} href={`/EBPMDB/${categoryName}`}>
+        <div className={`${categoryName}-image category-card-image`}></div>
+        <CardContent>
+          <Typography component="div" variant="h5" sx={{ my: 2 }}>{categoryLabel}</Typography>
+          <Typography variant="body1">{description}</Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  )
+}
+
+const Home: FunctionComponent = () => {
   return (
     <>
-      <ThemeProvider theme={theme}> 
+      <ThemeProvider theme={theme}>
         <Navigation />
-        <Hero />
-        <Container sx={{ m: 'auto' }}>
-          <EvidenceSticky />
-          {docs.map((doc, i) => (
-            <DCard key={i} doc={doc} />
-          ))}
+        <TopHero />
+        <Container sx={{ mx: 'auto', my: 8 }}>
+          <Grid container justifyContent="space-between" spacing={3}>
+            <Grid item xs={4}>
+              <CategoryCard
+                categoryLabel="教育"
+                description="教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。"
+                categoryName="education"
+              />
+            </Grid>
+            <Grid item xs={4}>
+              <CategoryCard
+                categoryLabel="医療"
+                description="医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。"
+                categoryName="medical_care"
+              />
+            </Grid>
+            <Grid item xs={4}>
+              <CategoryCard
+                categoryLabel="少子化対策"
+                description="少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。"
+                categoryName="measures_for_declining_birthrate"
+              />
+            </Grid>
+          </Grid>
         </Container>
+        <Footer />
       </ThemeProvider>
     </>
   )
 }
 
 export default Home
-
-
-export async function getStaticProps() {
-  const files = fs.readdirSync('docs')
-  let docs = files.map(file => {
-    const data = fs.readFileSync(`docs/${file}`).toString()
-    return {
-      ...matter(data).data,
-      slug: file.split('.')[0]
-    }
-  }).reverse()
-
-  return {
-    props: {
-      docs
-    }
-  }
-}

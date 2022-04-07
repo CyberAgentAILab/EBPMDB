@@ -8,6 +8,7 @@ import Navigation from '../../components/navigation'
 import Markdown from '../../components/markdown';
 import MarkdownList from '../../components/markdown-list';
 import EvidenceTable from '../../components/evidence-table';
+import Footer from '../../components/footer'
 
 interface IProps {
   doc: DocumentInfo
@@ -16,8 +17,8 @@ interface IProps {
 const theme = createTheme({
   palette: {
     primary: {
-      light: '#ff8282',
-      main: '#ff6363',
+      light: '#6C63FF',
+      main: '#6C63FF',
       dark: '#b24545',
       contrastText: '#000',
     },
@@ -54,18 +55,21 @@ const Document: FunctionComponent<IProps> = ({ doc }) => {
           </div>
           <Markdown content={doc.content} /> 
         </Container>
+        <Footer />
       </ThemeProvider>
     </>
   )
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync('docs')
-  const paths = files.map(file => ({
-    params: {
-      slug: file.split('.')[0]
-    }
-  }))
+  const dirs = fs.readdirSync('docs')
+  const paths = dirs.map(dir => (
+    fs.readdirSync(`docs/${dir}`).map(file => ({
+      params: {
+        slug: [dir, file?.split('.')[0]]
+      }
+    }))
+  )).flat()
 
   return {
     paths,
@@ -74,15 +78,16 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ ...ctx }) {
-  const { slug } = ctx.params;
+  const [dir, slug] = ctx.params.slug
 
-  const content = fs.readFileSync(`docs/${slug}.md`).toString()
+  const content = fs.readFileSync(`docs/${dir}/${slug}.md`).toString()
 
   const info = matter(content)
 
   const doc = {
     meta: {
       ...info.data,
+      dir,
       slug
     },
     content: info.content

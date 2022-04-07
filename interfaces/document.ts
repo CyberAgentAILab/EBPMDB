@@ -1,6 +1,6 @@
 interface DocumentMeta {
   title: string;
-  slug: string;
+  slug: string[];
   description: string;
   date: string;
   points: string[];
