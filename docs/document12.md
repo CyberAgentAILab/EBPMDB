@@ -3,6 +3,8 @@ id: "12"
 title: "区立小学校での補習"
 description: "国語と算数の補習を目的とする小学校基礎学習教室が成績に与える効果"
 date: "2022-03-03"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "算数と国語の点数",

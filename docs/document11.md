@@ -3,6 +3,8 @@ id: "11"
 title: "子どもへの家庭用PCの配布"
 description: "子どもへの家庭用PCの配布が成績に与える効果"
 date: "2022-03-10"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "GPA",

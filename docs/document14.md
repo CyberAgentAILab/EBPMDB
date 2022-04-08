@@ -3,6 +3,8 @@ id: "14"
 title: "授業に占める講義時間の割合"
 description: "授業において教師が講義している割合が成績に与える影響"
 date: "2022-03-10"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "数学と物理の試験の点数",

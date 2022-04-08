@@ -1,17 +1,23 @@
 import { TopHero } from '../components/hero'
 import Navigation from '../components/navigation'
+import EvidenceSticky from '../components/evidence-sticky'
+import DCard from '../components/card'
 import Footer from '../components/footer'
 import {
   Container,
   ThemeProvider,
-  Card,
-  CardContent,
-  Typography,
-  CardActionArea,
-  Grid,
   createTheme,
+  Tabs,
+  Tab,
 } from '@mui/material'
-import { FunctionComponent } from 'react'
+import matter from 'gray-matter'
+import { DocumentMeta } from '../interfaces/document'
+import { FunctionComponent, SyntheticEvent, useState } from 'react'
+import fs from 'fs'
+
+interface IProps {
+  docs: DocumentMeta[]
+}
 
 const theme = createTheme({
   palette: {
@@ -30,51 +36,34 @@ const theme = createTheme({
   },
 })
 
-const CategoryCard = (props: { categoryLabel: string, description: string, categoryName: string }) => {
-  const { categoryLabel, description, categoryName } = props
-  return (
-    <Card>
-      <CardActionArea style={{ height: '27rem' }} href={`/EBPMDB/${categoryName}`}>
-        <div className={`${categoryName}-image category-card-image`}></div>
-        <CardContent>
-          <Typography component="div" variant="h5" sx={{ my: 2 }}>{categoryLabel}</Typography>
-          <Typography variant="body1">{description}</Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
-  )
-}
+const Home: FunctionComponent<IProps> = ({ docs }) => {
+  const categories = Array.from(
+    new Map(docs.map(doc => [doc.category, doc])).values()
+  ).map(d => ([d.category, d.categoryLabel]))
+  const tabs = [['all', 'すべて'], ...categories]
+  const [filter, setFilter] = useState('all')
+  const [displayItems, setDisplayItems] = useState(docs)
+  const handleChange = (_: SyntheticEvent, f: string) => {
+    setFilter(f)
+    setDisplayItems(docs.filter(doc => f === 'all' ? true : doc.category === f))
+  }
 
-const Home: FunctionComponent = () => {
   return (
     <>
       <ThemeProvider theme={theme}>
         <Navigation />
         <TopHero />
-        <Container sx={{ mx: 'auto', my: 8 }}>
-          <Grid container justifyContent="space-between" spacing={3}>
-            <Grid item xs={4}>
-              <CategoryCard
-                categoryLabel="教育"
-                description="教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。"
-                categoryName="education"
-              />
-            </Grid>
-            <Grid item xs={4}>
-              <CategoryCard
-                categoryLabel="医療"
-                description="医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。"
-                categoryName="medical_care"
-              />
-            </Grid>
-            <Grid item xs={4}>
-              <CategoryCard
-                categoryLabel="少子化対策"
-                description="少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。"
-                categoryName="measures_for_declining_birthrate"
-              />
-            </Grid>
-          </Grid>
+        <Container sx={{ m: 'auto' }}>
+          <Tabs value={filter} onChange={handleChange} sx={{ my: '2rem' }} aria-label="cagerory select">
+            {tabs.map(tab => {
+              const [category, categoryLabel] = tab
+              return <Tab key={category} value={category} label={categoryLabel} />
+            })}
+          </Tabs>
+          <EvidenceSticky />
+          {displayItems.map((doc, i) => (
+            <DCard key={i} doc={doc} />
+          ))}
         </Container>
         <Footer />
       </ThemeProvider>
@@ -83,3 +72,20 @@ const Home: FunctionComponent = () => {
 }
 
 export default Home
+
+export async function getStaticProps() {
+  const files = fs.readdirSync('docs')
+  const docs = files.map(file => {
+    const data = fs.readFileSync(`docs/${file}`).toString()
+    return {
+      ...matter(data).data,
+      slug: file.split('.')[0]
+    }
+  }).reverse()
+
+  return {
+    props: {
+      docs
+    }
+  }
+}

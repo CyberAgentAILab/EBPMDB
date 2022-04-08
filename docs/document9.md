@@ -3,6 +3,8 @@ id: "9"
 title: "小学校における現代的指導法"
 description: "個人による反復暗記とグループワークでの議論やプレゼンテーションを主体とする講義スタイルが成績に及ぼす効果"
 date: "2022-01-17"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "数学と国語の点数",

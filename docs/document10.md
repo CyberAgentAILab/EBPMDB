@@ -3,6 +3,8 @@ id: "10"
 title: "自発学習を促すためのノートPC配布"
 description: "自発的な学習を促進することを目的として子どもたちに個人用ノートPCを提供するOLPC（One Laptop per Child）プログラムの効果"
 date: "2022-02-06"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "数学と国語の点数",

@@ -1,8 +1,11 @@
 interface DocumentMeta {
+  id: string;
   title: string;
-  slug: string[];
+  slug: string;
   description: string;
   date: string;
+  category: string;
+  categoryLabel: string;
   points: string[];
   contacts: string[];
   tables: Table[];
