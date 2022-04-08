@@ -3,6 +3,8 @@ id: "15"
 title: "優秀な同僚教師からのピア効果"
 description: "優秀な同僚教師がいることによる教育効果への効果"
 date: "2022-03-10"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "数学と国語の成績",

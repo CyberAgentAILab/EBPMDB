@@ -8,6 +8,10 @@ description: "休校による学業外への悪影響"
 
 date: "2022-03-31"
 
+category: "heath"
+
+categoryLabel: "医療"
+
 tables: [
 
 {

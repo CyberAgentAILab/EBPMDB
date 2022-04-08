@@ -3,6 +3,8 @@ id: "103"
 title: "男性育休を促す育児休業法改正"
 description: "男性育休を促す育児休業法改正が夫婦関係の満足度に与える影響"
 date: "2022-03-10"
+category: "fertility"
+categoryLabel: "少子化対策"
 tables: [
   {
     "title": "出生後1年間の夫婦関係の満足度",

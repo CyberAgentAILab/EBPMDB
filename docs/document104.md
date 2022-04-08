@@ -3,6 +3,8 @@ id: "104"
 title: "父親の育休取得"
 description: "父親の育休取得が追加的な出生に与える影響"
 date: "2022-03-10"
+category: "fertility"
+categoryLabel: "少子化対策"
 tables: [
   {
     "title": "追加的な出生",

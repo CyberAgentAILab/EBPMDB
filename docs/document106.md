@@ -3,6 +3,8 @@ id: "106"
 title: "父親の育児休業の導入"
 description: "スペインの育児休業法改正による二週間の父親の育児休業取得による追加的出生の減少"
 date: "2022-03-10"
+category: "fertility"
+categoryLabel: "少子化対策"
 tables: [
   {
     "title": "追加的出生",

@@ -6,8 +6,6 @@ import {
   ThemeProvider,
   createTheme,
   Typography,
-  Grid,
-  Link,
 } from '@mui/material'
 import { FunctionComponent } from 'react'
 

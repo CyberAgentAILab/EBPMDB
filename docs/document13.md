@@ -3,6 +3,8 @@ id: "13"
 title: "実質講義時間の長さ"
 description: "授業において教師が講義している時間の割合が成績に与える影響"
 date: "2022-03-10"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "数学の試験の点数",

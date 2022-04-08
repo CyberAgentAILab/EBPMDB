@@ -3,7 +3,7 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import { DocumentInfo } from "../../interfaces/document";
 import { createTheme } from '@mui/material'
-import { Container, ThemeProvider, Typography, Box} from '@mui/material'
+import { Container, ThemeProvider, Typography, Box, Grid} from '@mui/material'
 import Navigation from '../../components/navigation'
 import Markdown from '../../components/markdown';
 import MarkdownList from '../../components/markdown-list';
@@ -40,11 +40,17 @@ const Document: FunctionComponent<IProps> = ({ doc }) => {
           <Typography component='h1' variant='h4' sx={{ marginTop: '2em' }}>{doc.meta.title}</Typography>
           <Typography component='p' variant='body1' sx={{ my: '1.5em' }}>{doc.meta.description}</Typography>
           <div className="summary">
-            <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', textAlign: 'center', alignItems: 'center', marginBottom: '1em' }}>
-              <Typography component="h3" variant="body1">評価指標</Typography>
-              <Typography component="h3" variant="body1">効果</Typography>
-              <Typography component="h3" variant="body1">証拠の強さ</Typography>
-            </Box>
+            <Grid container columns={10} sx={{ marginBottom: '1rem' }}>
+              <Grid item xs={5}>
+                <Typography component="h3" variant="body1">評価指標</Typography>
+              </Grid>
+              <Grid item xs={2} sx={{ px: '1rem'}}>
+                <Typography component="h3" variant="body1">効果</Typography>
+              </Grid>
+              <Grid item xs={3}>
+                <Typography component="h3" variant="body1">証拠の強さ</Typography>
+              </Grid>
+            </Grid>
             {doc.meta.tables.map((table, i) => (
               <EvidenceTable key={i} table={table} />
             ))}
@@ -62,14 +68,12 @@ const Document: FunctionComponent<IProps> = ({ doc }) => {
 }
 
 export async function getStaticPaths() {
-  const dirs = fs.readdirSync('docs')
-  const paths = dirs.map(dir => (
-    fs.readdirSync(`docs/${dir}`).map(file => ({
-      params: {
-        slug: [dir, file?.split('.')[0]]
-      }
-    }))
-  )).flat()
+  const files = fs.readdirSync('docs')
+  const paths = files.map(file => ({
+    params: {
+      slug: file.split('.')[0]
+    }
+  }))
 
   return {
     paths,
@@ -78,16 +82,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ ...ctx }) {
-  const [dir, slug] = ctx.params.slug
-
-  const content = fs.readFileSync(`docs/${dir}/${slug}.md`).toString()
-
+  const { slug } = ctx.params;
+  const content = fs.readFileSync(`docs/${slug}.md`).toString()
   const info = matter(content)
-
   const doc = {
     meta: {
       ...info.data,
-      dir,
       slug
     },
     content: info.content

@@ -15,51 +15,6 @@ export function TopHero() {
   )
 }
 
-export function EducationHero() {
-  return (
-    <div className="hero education-image">
-      <Container sx={{ m: 'auto' }}>
-        <Typography component='h1' variant='h1' className="headline">
-          教育
-        </Typography>
-        <Typography component='p' variant='body1' className="lead">
-          教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。教育関連のエビデンスです。
-        </Typography>
-      </Container>
-    </div>
-  )
-}
-
-export function MeasuresForDecliningBirthrateHero() {
-  return (
-    <div className="hero measures_for_declining_birthrate-image">
-      <Container sx={{ m: 'auto' }}>
-        <Typography component='h1' variant='h1' className="headline">
-          少子化対策
-        </Typography>
-        <Typography component='p' variant='body1' className="lead">
-          少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。少子化対策関連のエビデンスです。
-        </Typography>
-      </Container>
-    </div>
-  )
-}
-
-export function MedicalCareHero() {
-  return (
-    <div className="hero medical_care-image">
-      <Container sx={{ m: 'auto' }}>
-        <Typography component='h1' variant='h1' className="headline">
-          医療
-        </Typography>
-        <Typography component='p' variant='body1' className="lead">
-          医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。医療関連のエビデンスです。
-        </Typography>
-      </Container>
-    </div>
-  )
-}
-
 export function HowtoHero() {
   return (
     <div className="hero howto-image">

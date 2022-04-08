@@ -32,23 +32,20 @@ export default function Footer() {
       <Box sx={{ backgroundColor: grey[800] }}>
         <Container sx={{ mx: 'auto', mt: '4rem', pt: '2rem', pb: '1rem' }}>
           <Grid container>
-            <Grid item xs={4}>
-              <Link>
-                <Typography>このサイトについて</Typography>
-              </Link>
-            </Grid>
-            <Grid item xs={4}>
-              <Link>
+            <Grid item xs={6} sx={{ textAlign: 'center' }}>
+              <Link href="https://www.cyberagent.co.jp/privacy/" target="_blank">
                 <Typography>プライバシーポリシー</Typography>
               </Link>
             </Grid>
-            <Grid item xs={4}>
-              <Link>
-                <Typography>お問い合わせ</Typography>
+            <Grid item xs={6} sx={{ textAlign: 'center' }}>
+              <Link href="https://cyberagent.ai/ailab/" target="_blank">
+                <Typography>運営主体</Typography>
               </Link>
             </Grid>
           </Grid>
-          <Typography component="p" variant="body2" sx={{ textAlign: 'center', color: '#ffffff', mt: '3rem' }}>&copy;</Typography>
+          <Typography component="p" variant="body2" sx={{ textAlign: 'center', color: '#ffffff', mt: '3rem' }}>
+            Copyright &copy; CyberAgent, Inc.
+          </Typography>
         </Container>
       </Box>
     </ThemeProvider>

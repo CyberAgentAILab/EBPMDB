@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Typography, Grid } from '@mui/material'
 import { EvidenceTableProps } from '../interfaces/EvidenceCardProps'
 import EvidenceTableStrength from './evidence-table-strength'
 import EvidenceTableEffectiveness from './evidence-table-effectiveness'
@@ -7,14 +7,16 @@ export default function EvidenceTable(props: { table: EvidenceTableProps }) {
   const { title, effectiveness, strength } = props.table
 
   return (
-    <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', py: 1, pl: 2 }} className="table-border">
-      <Typography component="h3" variant="body1" sx={{ fontWeight: 'bold' }}>{title}</Typography>
-      <Box sx={{ textAlign: 'center' }}>
+    <Grid container columns={10} sx={{ py: 1 }} className="table-border">
+      <Grid item xs={5}>
+        <Typography component="h3" variant="body1" sx={{ fontWeight: 'bold' }}>{title}</Typography>
+      </Grid>
+      <Grid item xs={2} sx={{ px: '1rem'}}>
         <EvidenceTableEffectiveness effectiveness={effectiveness} />
-      </Box>
-      <Box sx={{ textAlign: 'center' }}>
+      </Grid>
+      <Grid item xs={3}>
         <EvidenceTableStrength strength={strength} />
-      </Box>
-    </Box>
+      </Grid>
+    </Grid>
   )
 }
