@@ -3,6 +3,8 @@ id: "16"
 title: "小学校の授業における言語活動"
 description: "ロジカルシンキングを促進するための言語活動の国語と算数の成績に対する効果"
 date: "2022-03-10"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "国語と算数のテスト",

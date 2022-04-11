@@ -1,18 +1,19 @@
-import type { NextPage } from 'next'
-import Link from 'next/link'
-import data from '../data.json'
-
-import Hero from '../components/hero'
-import EvidenceCard from '../components/evidence-card'
-import EvidenceSticky from '../components/evidence-sticky'
+import { TopHero } from '../components/hero'
 import Navigation from '../components/navigation'
-import { Container, ThemeProvider} from '@mui/material'
-import { createTheme } from '@mui/material'
-import matter from 'gray-matter'
+import EvidenceSticky from '../components/evidence-sticky'
 import DCard from '../components/card'
-import fs from 'fs'
+import Footer from '../components/footer'
+import {
+  Container,
+  ThemeProvider,
+  createTheme,
+  Tabs,
+  Tab,
+} from '@mui/material'
+import matter from 'gray-matter'
 import { DocumentMeta } from '../interfaces/document'
-import { FunctionComponent } from 'react'
+import { FunctionComponent, SyntheticEvent, useState } from 'react'
+import fs from 'fs'
 
 interface IProps {
   docs: DocumentMeta[]
@@ -21,8 +22,8 @@ interface IProps {
 const theme = createTheme({
   palette: {
     primary: {
-      light: '#ff8282',
-      main: '#ff6363',
+      light: '#6C63FF',
+      main: '#6C63FF',
       dark: '#b24545',
       contrastText: '#000',
     },
@@ -36,17 +37,35 @@ const theme = createTheme({
 })
 
 const Home: FunctionComponent<IProps> = ({ docs }) => {
+  const categories = Array.from(
+    new Map(docs.map(doc => [doc.category, doc])).values()
+  ).map(d => ([d.category, d.categoryLabel]))
+  const tabs = [['all', 'すべて'], ...categories]
+  const [filter, setFilter] = useState('all')
+  const [displayItems, setDisplayItems] = useState(docs)
+  const handleChange = (_: SyntheticEvent, f: string) => {
+    setFilter(f)
+    setDisplayItems(docs.filter(doc => f === 'all' ? true : doc.category === f))
+  }
+
   return (
     <>
-      <ThemeProvider theme={theme}> 
+      <ThemeProvider theme={theme}>
         <Navigation />
-        <Hero />
+        <TopHero />
         <Container sx={{ m: 'auto' }}>
+          <Tabs value={filter} onChange={handleChange} sx={{ my: '2rem' }} aria-label="cagerory select">
+            {tabs.map(tab => {
+              const [category, categoryLabel] = tab
+              return <Tab key={category} value={category} label={categoryLabel} />
+            })}
+          </Tabs>
           <EvidenceSticky />
-          {docs.map((doc, i) => (
+          {displayItems.map((doc, i) => (
             <DCard key={i} doc={doc} />
           ))}
         </Container>
+        <Footer />
       </ThemeProvider>
     </>
   )
@@ -54,10 +73,9 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
 
 export default Home
 
-
 export async function getStaticProps() {
   const files = fs.readdirSync('docs')
-  let docs = files.map(file => {
+  const docs = files.map(file => {
     const data = fs.readFileSync(`docs/${file}`).toString()
     return {
       ...matter(data).data,

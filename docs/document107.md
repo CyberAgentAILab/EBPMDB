@@ -3,6 +3,8 @@ id: "107"
 title: "父親の育児休業取得"
 description: "韓国における父親の育児休業と追加出生意欲の関係"
 date: "2022-03-10"
+category: "fertility"
+categoryLabel: "少子化対策"
 tables: [
   {
     "title": "追加的出生意欲",
