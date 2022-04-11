@@ -1,12 +1,16 @@
 ---
 
-id: "210"
+id: "110"
 
 title: "介護保険の導入、改正による労働力への影響"
 
 description: "介護保険制度の改正の短期的利益と長期的損失"
 
 date: "2022-03-31"
+
+category: "heath"
+
+categoryLabel: "医療"
 
 tables: [
 

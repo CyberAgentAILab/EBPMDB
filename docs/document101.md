@@ -3,6 +3,8 @@ id: "101"
 title: "育休の短縮化と給付金の所得比例化"
 description: "育休期間の短縮化と給付金の所得比例化が第一子出生に与えた影響"
 date: "2022-03-10"
+category: "fertility"
+categoryLabel: "少子化対策"
 tables: [
   {
     "title": "第一子出生確率",

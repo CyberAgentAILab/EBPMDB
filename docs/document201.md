@@ -8,6 +8,10 @@ description: "子どもの医療費の自己負担比率が低下（増加）し
 
 date: "2022-03-29"
 
+category: "heath"
+
+categoryLabel: "医療"
+
 tables: [
 
 {

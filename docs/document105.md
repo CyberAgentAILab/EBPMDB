@@ -3,6 +3,8 @@ id: "105"
 title: "父親の育休取得"
 description: "父親の育休取得と夫婦関係の満足度および夫婦間の葛藤"
 date: "2022-03-10"
+category: "fertility"
+categoryLabel: "少子化対策"
 tables: [
   {
     "title": "夫婦関係の満足度",

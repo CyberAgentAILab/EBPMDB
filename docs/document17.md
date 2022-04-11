@@ -3,6 +3,8 @@ id: "17"
 title: "補習とコンピュータ支援学習"
 description: "成績が振るわない小学校3、4年生に対する補習と通常の小学校3、4年生に対する授業外のコンピュータ支援学習が成績に与える効果"
 date: "2022-03-11"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "数学、言語のテストスコア",
