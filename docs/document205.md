@@ -1,12 +1,16 @@
 ---
 
-id: "212"
+id: "205"
 
 title: "ゼロ価格政策下でのモラルハザード: 日本の介護保険の請求データからの証拠"
 
 description: ""
 
 date: "2022-03-30"
+
+category: "heath"
+
+categoryLabel: "医療"
 
 tables: [
 
