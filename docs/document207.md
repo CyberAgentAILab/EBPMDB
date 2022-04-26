@@ -1,10 +1,10 @@
 ---
 
-id: "202"
+id: "207"
 
-title: "COVID-19の休校による児童と家族への影響"
+title: "高齢者医療制度"
 
-description: "休校による学業外への悪影響"
+description: "70歳以上の高齢者に対する自己負担割合の軽減措置が医療需要、健康に及ぼす効果"
 
 date: "2022-03-31"
 
@@ -16,7 +16,7 @@ tables: [
 
 {
 
-"title": "子供の体重",
+"title": "医療需要",
 
 "effectiveness": "効果あり",
 
@@ -24,9 +24,9 @@ tables: [
 
 },{
 
-"title": "子育てに関する悩みを持つ母親の数",
+"title": "健康",
 
-"effectiveness": "効果あり",
+"effectiveness": "効果なし",
 
 "strength": 4
 
@@ -35,7 +35,8 @@ tables: [
 ]
 
 points:
-- 子供の学校の閉鎖は学業以外への大きな悪影響がある。
+- 70歳で医療費の価格が下がると、医療需要が大きく増える。特に、外来医療の需要への影響が大きい
+- 医療需要の増加による健康への有意な影響は見られない
 
 contacts:
 
@@ -45,17 +46,19 @@ contacts:
 
 ## 背景
 
-- COVID-19の感染拡大を抑制するため、日本は2020年3月2日から突然、小学校の休校を開始したが、保育園はこの全国一斉休校の対象外とされた。子供はcovid-19の害が少ないとされる中で学校閉鎖について議論がされている。
+- 高齢者の医療費自己負担割合は70歳を境に60-80%減少する。
+- このことが、高齢者の医療需要や健康、経済的リスクにどのように影響するか検証する。
 
 ## 介入
-- コロナ禍における一斉休校措置
+- 高齢者医療費制度における70歳以上の自己負担割合の軽減
+- 69歳と比較すると60-80%の負担軽減になっている
 
 ## 評価指標
-- 子供の体重
-- 子育てに悩む母親の数
+- 死亡率
+- 罹患率
 
 ## 分析方法
-- 月齢89を閾値とした回帰不連続デザイン
+- 70歳を閾値とした回帰不連続デザイン
 
 ## 証拠の強さ
 
@@ -78,4 +81,4 @@ contacts:
 - ランダムな介入でないことに留意
 
 ## 書誌情報
-- Takaku, Reo and Izumi Yokoyama. (2021) "What the COVID-19 school closure left in its wake: Evidence from a regression discontinuity analysis in Japan" Journal of Public Economics, 195 104364.
+- Shigeoka, Hitoshi (2014) "The Effect of Patient Cost Sharing on Utilization, Health, and Risk Protection." American Economic Review, 104(7): 2152-2184.

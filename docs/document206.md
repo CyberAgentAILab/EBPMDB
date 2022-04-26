@@ -17,18 +17,14 @@ tables: [
 {
 "title": 医療サービスの利用",
 "effectiveness": "効果あり",
-"strength": 3
-},{
-"title": "糖尿病リスク（ハイリスク）",
-"effectiveness": "効果あり",
-"strength": 3
+"strength": 4
 },
 
 {
 "title": "糖尿病リスク（一般）",
 "effectiveness": "効果なし",
 
-"strength": 3
+"strength": 4
 
 },{
 
@@ -36,7 +32,7 @@ tables: [
 
 "effectiveness": "効果あり",
 
-"strength": 3
+"strength": 4
 
 }
 
@@ -69,7 +65,7 @@ contacts:
 
 ## 証拠の強さ
 
-- SMS:3
+- SMS:4
 - 根拠
     - 回帰不連続デザインを用いている
 
