@@ -1,12 +1,16 @@
 ---
 
-id: "211"
+id: "204"
 
 title: "日本人男性における肥満と心血管リスクの保健指導介入と健康アウトカムとの関連性"
 
 description: "メタボ健診・特定保健指導制度による肥満や心血管リスクへの効果"
 
 date: "2022-03-30"
+
+category: "heath"
+
+categoryLabel: "医療"
 
 tables: [
 
@@ -81,5 +85,4 @@ contacts:
 
 ## 書誌情報
 
-- Fukuma, Shingo, Toshiaki Iizuka, Tatsuyoshi Ikenoue, and Yusuke Tsugawa. (2020) "Association of the National Health Guidance Intervention for Obesity
-and Cardiovascular Risks With Health Outcomes Among Japanese Men." JAMA Intern Med. 180(12): 1630-1637.
+- Fukuma, Shingo, Toshiaki Iizuka, Tatsuyoshi Ikenoue, and Yusuke Tsugawa. (2020) "Association of the National Health Guidance Intervention for Obesity　and Cardiovascular Risks With Health Outcomes Among Japanese Men." JAMA Intern Med. 180(12): 1630-1637.
