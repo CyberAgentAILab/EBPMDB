@@ -85,5 +85,4 @@ contacts:
 
 ## 書誌情報
 
-- Fukuma, Shingo, Toshiaki Iizuka, Tatsuyoshi Ikenoue, and Yusuke Tsugawa. (2020) "Association of the National Health Guidance Intervention for Obesity
-and Cardiovascular Risks With Health Outcomes Among Japanese Men." JAMA Intern Med. 180(12): 1630-1637.
+- Fukuma, Shingo, Toshiaki Iizuka, Tatsuyoshi Ikenoue, and Yusuke Tsugawa. (2020) "Association of the National Health Guidance Intervention for Obesity　and Cardiovascular Risks With Health Outcomes Among Japanese Men." JAMA Intern Med. 180(12): 1630-1637.
