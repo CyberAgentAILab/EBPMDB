@@ -1,4 +1,4 @@
-import { TopHero } from '../components/hero'
+import { HowtoHero, TopHero } from '../components/hero'
 import Navigation from '../components/navigation'
 import EvidenceSticky from '../components/evidence-sticky'
 import DCard from '../components/card'
@@ -53,6 +53,7 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
       <ThemeProvider theme={theme}>
         <Navigation />
         <TopHero />
+        <HowtoHero/>
         <Container sx={{ m: 'auto' }}>
           <Tabs value={filter} onChange={handleChange} sx={{ my: '2rem' }} aria-label="cagerory select">
             {tabs.map(tab => {
