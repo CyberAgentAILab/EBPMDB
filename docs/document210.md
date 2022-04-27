@@ -71,6 +71,6 @@ contacts:
 - 
 
 ## 書誌情報
-- Iizuka, T., & Shigeoka, H. (日付なし). Is Zero a Special Price? Evidence from Child Healthcare. American Economic Journal: Applied Economics. https://doi.org/10.1257/app.20210184
+- Iizuka, T., & Shigeoka, H. Is Zero a Special Price? Evidence from Child Healthcare. American Economic Journal: Applied Economics. https://doi.org/10.1257/app.20210184, forthcomming
 
 
