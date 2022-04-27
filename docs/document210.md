@@ -71,5 +71,6 @@ contacts:
 - 
 
 ## 書誌情報
-- Iizuka, T., & Shigeoka, H. (2020). Is Zero a Special Price? Evidence from Child Healthcare (SSRN Scholarly Paper No. 3287571). Social Science Research Network. https://doi.org/10.2139/ssrn.3287571
+- Iizuka, T., & Shigeoka, H. Is Zero a Special Price? Evidence from Child Healthcare. American Economic Journal: Applied Economics. https://doi.org/10.1257/app.20210184, forthcoming
+
 

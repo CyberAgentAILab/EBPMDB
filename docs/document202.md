@@ -75,7 +75,7 @@ contacts:
 - DVの発生率や結婚生活の質など、夫婦関係に関する成果は統計的に有意な結果は見られなかった。
 
 ## 研究の弱点
-- ランダムな介入でないことに留意
+- 
 
 ## 書誌情報
 - Takaku, Reo and Izumi Yokoyama. (2021) "What the COVID-19 school closure left in its wake: Evidence from a regression discontinuity analysis in Japan" Journal of Public Economics, 195 104364.
