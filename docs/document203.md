@@ -83,8 +83,7 @@ contacts:
 
 
 ## 研究の弱点
-- 観測できない影響がモデル中に残る可能性がある。
-- この研究では就労していることに焦点を当てているが、労働時間や賃金に与える影響を測定する必要がある。
+- この研究では就労していることに焦点を当てているが、労働時間や賃金に与える影響を考慮する必要がある
 
 ## 書誌情報
 - Fu, Rong, Haruko Noguchi, Akira Kawamura, Hideto Takahashi, and Nakako Tamiya. (2017) "Spillover effect of Japanese long-term care insurance as an employment promotion policy for family caregivers." Journal of Health Economics, 56:103-112.
