@@ -3,6 +3,7 @@ import Navigation from '../components/navigation'
 import EvidenceSticky from '../components/evidence-sticky'
 import DCard from '../components/card'
 import Footer from '../components/footer'
+import Guidance from '../components/guidance'
 import {
   Container,
   ThemeProvider,
@@ -53,6 +54,7 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
       <ThemeProvider theme={theme}>
         <Navigation />
         <TopHero />
+        <Guidance />
         <Container sx={{ m: 'auto' }}>
           <Tabs value={filter} onChange={handleChange} sx={{ my: '2rem' }} aria-label="cagerory select">
             {tabs.map(tab => {
