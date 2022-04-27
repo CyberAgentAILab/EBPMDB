@@ -1,21 +1,32 @@
 # EBPMデータベース
-[EBPMデータベース](https://cyberagentailab.github.io/EBPMDB/)は、証拠に基づく政策を推進するためのプラットフォームです。既存の質の高い研究結果をエビデンスとして登録したり、官民の有志による独自のエビデンスを登録することで知見が共有され確度の高い政策立案や、政策の改善が期待されます。EBPMの発展を願うすべての参加者のオープンで透明性のある議論によってデータベースを発展させていくことが私たちの願いです。
 
-EBPMデータベースは新たなレビューの投稿、既存レビューへのコメントや修正依頼、データベース全体への改善要望を歓迎します。貢献する方法は主に3つあります。
 
-**新たなレビューを投稿する**
-- [EBPMDB/docs](https://github.com/CyberAgentAILab/EBPMDB/tree/main/docs)以下の該当のカテゴリに [テンプレート](https://github.com/CyberAgentAILab/EBPMDB/blob/main/template.md)に従って新たなレビューを投稿することができます。
-- 新たなレビューを投稿する方は、この[レポジトリ](https://github.com/CyberAgentAILab/ebpmdb)をフォークして新たなレビューをコミットしプルリクエストを送ってください。
-- データベースの管理者が内容を精査した上でマージします。
-- 留意点
-  - 適当なカテゴリがなければ新規で作成してください。
+*[EBPMデータベース](https://cyberagentailab.github.io/EBPMDB/)は、証拠に基づく政策を推進するためのプラットフォームです。*
 
-**レビューへの質問や修正コメントを送る**
-- 直接レビューの修正を行う場合は[EBPMDB/docs](https://github.com/CyberAgentAILab/EBPMDB/tree/main/docs)以下のdocument.mdファイルに直接修正を行ってプルリクを送ってください。データベースの管理者が内容を精査した上でマージします。
-- [Issue](https://github.com/CyberAgentAILab/EBPMDB/issues)をたててレビューへの質問や修正コメントを行うことも可能です。
+- 査読付雑誌に掲載された論文などから既存の質の高いエビデンスを投稿したり、論文となっていない実験結果を独自のエビデンスを投稿することで、さまざまな政策の効果に関する知見が共有され、より客観的な証拠に基づく政策が実現していくことが期待されます。
 
-**その他の改善要望や質問を行う**
-- レビューのフォーマットやデータベースの実装などについて改善要望がある場合は[Issue](https://github.com/CyberAgentAILab/EBPMDB/issues)を立ててください。
+- EBPMの発展を願うすべての参加者のオープンで透明性のある議論によってデータベースを発展させ、研究者と中央省庁・自治体の政治家、官僚、自治体職員を含む政策担当者のコラボレーションを促進していくことが私たちの願いです。
 
-**問い合わせ先**
+- レビューを投稿することで、研究者の専門性が政策担当者に認知され、政策のコンサルティングやフィールド実験などさまざまな協働が実現していくことを期待しています。
+
+-------------
+
+*EBPMデータベースは新たなレビュー（記事）の投稿、既存レビューへのコメントや修正依頼、データベース全体への改善要望を歓迎します。貢献する方法は主に3つあります。*
+
+1. 新たなレビュー（記事）を投稿する
+    - [EBPMDB/docs](https://github.com/CyberAgentAILab/EBPMDB/tree/main/docs)以下に [テンプレート](https://github.com/CyberAgentAILab/EBPMDB/blob/main/template.md)に従って新たなレビューを投稿することができます。
+    - 新たなレビューを投稿する方は、この[レポジトリ](https://github.com/CyberAgentAILab/ebpmdb)をフォークして新たなレビューをコミットしプルリクエストを送ってください。
+    - データベースの管理者が内容を精査した上でマージします。
+    - 適当なカテゴリがなければ新規で作成してください。
+
+1. レビューへの質問や修正コメントを送る
+   - 直接レビューの修正を行う場合は[EBPMDB/docs](https://github.com/CyberAgentAILab/EBPMDB/tree/main/docs)以下のmarkdownファイルに直接修正を行ってプルリクエストを送ってください。データベースの管理者が内容を精査した上でマージします。
+   - [Issue](https://github.com/CyberAgentAILab/EBPMDB/issues)をたててレビューへの質問や修正コメントを行うことも可能です。
+
+1. その他の改善要望や質問を行う
+    - レビューのフォーマットやデータベースの実装などについて改善要望がある場合は[Issue](https://github.com/CyberAgentAILab/EBPMDB/issues)を立ててください。
+
+----
+*問い合わせ先*
+- EBPMデータベースは[株式会社サイバーエージェントAI事業本部AI Lab](https://cyberagent.ai/ailab/)が運営しています。
 - 質問はissueによって公にしていただくことを推奨しますが、個別にやり取りする必要がある場合は [メール](<mailto:ebpm@cyberagent.co.jp>)でお問い合わせください。
