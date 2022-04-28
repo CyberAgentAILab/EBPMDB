@@ -2,9 +2,9 @@
 
 id: "202"
 
-title: "COVID-19の休校による児童と家族への影響"
+title: "COVID-19下の休校"
 
-description: "休校による学業外への悪影響"
+description: "COVID-19の休校による児童と家族への影響"
 
 date: "2022-03-31"
 
