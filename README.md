@@ -15,6 +15,7 @@
 
 1. 新たなレビュー（記事）を投稿する
     - [EBPMDB/docs](https://github.com/CyberAgentAILab/EBPMDB/tree/main/docs)以下に [テンプレート](https://github.com/CyberAgentAILab/EBPMDB/blob/main/template.md)に従って新たなレビューを投稿することができます。
+    - 例えば、[このようなプルリク](https://github.com/CyberAgentAILab/EBPMDB/pull/30)をあげることで、レビューの追加をすることができます。
     - 新たなレビューを投稿する方は、この[レポジトリ](https://github.com/CyberAgentAILab/ebpmdb)をフォークして新たなレビューをコミットしプルリクエストを送ってください。
     - データベースの管理者が内容を精査した上でマージします。
     - 適当なカテゴリがなければ新規で作成してください。
@@ -22,6 +23,7 @@
 1. レビューへの質問や修正コメントを送る
    - 直接レビューの修正を行う場合は[EBPMDB/docs](https://github.com/CyberAgentAILab/EBPMDB/tree/main/docs)以下のmarkdownファイルに直接修正を行ってプルリクエストを送ってください。データベースの管理者が内容を精査した上でマージします。
    - [Issue](https://github.com/CyberAgentAILab/EBPMDB/issues)をたててレビューへの質問や修正コメントを行うことも可能です。
+   - 例えば、[このようなプルリク](https://github.com/CyberAgentAILab/EBPMDB/pull/6)をあげたり、[このようなイシュー](https://github.com/CyberAgentAILab/EBPMDB/issues/21)をあげることができます。
 
 1. その他の改善要望や質問を行う
     - レビューのフォーマットやデータベースの実装などについて改善要望がある場合は[Issue](https://github.com/CyberAgentAILab/EBPMDB/issues)を立ててください。
