@@ -74,7 +74,7 @@ contacts:
 - 医療需要の増加による健康への有意な影響は見られない
 
 ## 研究の弱点
-- ランダムな介入でないことに留意
+- 
 
 ## 書誌情報
 - Shigeoka, Hitoshi (2014) "The Effect of Patient Cost Sharing on Utilization, Health, and Risk Protection." American Economic Review, 104(7): 2152-2184.
