@@ -51,19 +51,19 @@ const SMS: FunctionComponent = () => {
               期待された効果が得られなかったことを示します。多くの場合、サンプルサイズが十分にあったが統計的に有意ではなかったことを示します。サンプルサイズが非常に大きい場合は統計的に有意であっても実質的に意味のない効果であることがあり、こちらに分類されます。
             </Grid>
             <Grid item xs={1} sx={{ py: 4 }}>
-              <EvidenceTableEffectiveness effectiveness="不明" />
+              <EvidenceTableEffectiveness effectiveness="ミックス" />
             </Grid>
             <Grid item xs={1} sx={{ py: 4 }}>
-              不明
+              ミックス
             </Grid>
             <Grid item xs={10} sx={{ py: 4 }}>
               介入効果は異質性を示すことが多くあります。例えば、男性には効果があったが女性にはなかった、若者には効果があるが高齢者にはなかった、など条件によって結論が異なる場合ミックスとしています。
             </Grid>
             <Grid item xs={1} sx={{ py: 4 }}>
-              <EvidenceTableEffectiveness effectiveness="ミックス" />
+              <EvidenceTableEffectiveness effectiveness="不明" />
             </Grid>
             <Grid item xs={1} sx={{ py: 4 }}>
-              ミックス
+              不明
             </Grid>
             <Grid item xs={10} sx={{ py: 4 }}>
               サンプルサイズが十分でなかったり、分析手法が不十分である場合は不明とします。不明と判定された介入は追加的な検証が必要です。
