@@ -15,6 +15,7 @@ import matter from 'gray-matter'
 import { DocumentMeta } from '../interfaces/document'
 import { FunctionComponent, SyntheticEvent, useState } from 'react'
 import fs from 'fs'
+import Header from '../components/header'
 
 interface IProps {
   docs: DocumentMeta[]
@@ -52,7 +53,8 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Navigation />
+        <Header />
+       <Navigation />
         <TopHero />
         <Guidance />
         <Container sx={{ m: 'auto' }}>
