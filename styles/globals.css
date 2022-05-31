@@ -104,4 +104,10 @@ a {
 	.hero .lead {
 		width: 100%;
 	}
+	.summary {
+		padding: 1.6rem;
+	}
+	.markdown {
+		padding: 1rem;
+	}
 }
