@@ -47,7 +47,7 @@ const Document: FunctionComponent<IProps> = ({ doc }) => {
 						</Grid>
 					</Grid>
 					{doc.meta.tables.map((table, i) => (
-						<EvidenceTable key={i} table={table} />
+						<EvidenceTable key={i} table={table} helpIcon={false} />
 					))}
 					<Typography component="h3" variant="h6" sx={{ marginTop: "2em" }}>
 						ポイント

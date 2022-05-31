@@ -10,7 +10,6 @@ import {
 	Tab,
 	FormControl,
 	Select,
-	InputLabel,
 	MenuItem,
 	SelectChangeEvent,
 } from "@mui/material";
@@ -31,20 +30,14 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
 	const tabs = [["all", "すべて"], ...categories];
 	const [filter, setFilter] = useState("all");
 	const [displayItems, setDisplayItems] = useState(docs);
-	const handleChange = (_: SyntheticEvent, f: string) => {
-		setFilter(f);
+
+	const handleChange = (
+		_: SyntheticEvent | SelectChangeEvent<string>,
+		f: ReactNode
+	) => {
+		setFilter(f as string);
 		setDisplayItems(
 			docs.filter((doc) => (f === "all" ? true : doc.category === f))
-		);
-	};
-	const handleSelectChange = (event: SelectChangeEvent) => {
-		setFilter(event.target.value);
-		setDisplayItems(
-			docs.filter((doc) =>
-				event.target.value === "all"
-					? true
-					: doc.category === event.target.value
-			)
 		);
 	};
 
@@ -72,7 +65,7 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
 					<Select
 						id="category-select"
 						value={filter}
-						onChange={handleSelectChange}
+						onChange={(e) => handleChange(e, e.target.value)}
 						fullWidth
 					>
 						{tabs.map((tab) => {

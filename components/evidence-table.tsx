@@ -4,7 +4,11 @@ import EvidenceTableStrength from "./evidence-table-strength";
 import EvidenceTableEffectiveness from "./evidence-table-effectiveness";
 import { Help } from "@mui/icons-material";
 
-export default function EvidenceTable(props: { table: EvidenceTableProps }) {
+export default function EvidenceTable(props: {
+	table: EvidenceTableProps;
+	helpIcon?: boolean;
+}) {
+	const { helpIcon = true } = props;
 	const { title, effectiveness, strength } = props.table;
 
 	return (
@@ -65,9 +69,13 @@ export default function EvidenceTable(props: { table: EvidenceTableProps }) {
 					}}
 				>
 					効果
-					<Link href={`/EBPMDB/effectiveness`}>
-						<Help sx={{ position: "relative", top: "3px", fontSize: "18px" }} />
-					</Link>
+					{helpIcon && (
+						<Link href={`/EBPMDB/effectiveness`}>
+							<Help
+								sx={{ position: "relative", top: "3px", fontSize: "18px" }}
+							/>
+						</Link>
+					)}
 				</Typography>
 				<EvidenceTableEffectiveness effectiveness={effectiveness} />
 			</Grid>
@@ -86,9 +94,13 @@ export default function EvidenceTable(props: { table: EvidenceTableProps }) {
 					sx={{ display: { xs: "block", md: "none" } }}
 				>
 					証拠の強さ
-					<Link href={`/EBPMDB/sms`}>
-						<Help sx={{ position: "relative", top: "3px", fontSize: "18px" }} />
-					</Link>
+					{helpIcon && (
+						<Link href={`/EBPMDB/sms`}>
+							<Help
+								sx={{ position: "relative", top: "3px", fontSize: "18px" }}
+							/>
+						</Link>
+					)}
 				</Typography>
 				<EvidenceTableStrength strength={strength} />
 			</Grid>
