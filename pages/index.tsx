@@ -51,7 +51,12 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
         <Tabs
           value={filter}
           onChange={handleChange}
-          sx={{ my: '2rem', display: { xs: 'none', md: 'block' } }}
+          sx={{
+            my: { xs: 0, md: '2rem' },
+            visibility: { xs: 'hidden', md: 'visible' },
+            height: { xs: '0', md: '100%' },
+            width: { xs: '0', md: '100%' },
+          }}
           aria-label="cagerory select"
         >
           {tabs.map(tab => {
@@ -59,7 +64,7 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
             return <Tab key={category} value={category} label={categoryLabel} />
           })}
         </Tabs>
-        <FormControl sx={{ display: { xs: 'block', md: 'none' }, mt: '2rem' }}>
+        <FormControl sx={{ display: { xs: 'block', md: 'none' } }}>
           <Select
             id="category-select"
             value={filter}
