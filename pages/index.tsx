@@ -25,8 +25,8 @@ interface IProps {
 
 const Home: FunctionComponent<IProps> = ({ docs }) => {
   const categories = Array.from(
-    new Map(docs.map((doc) => [doc.category, doc])).values()
-  ).map((d) => [d.category, d.categoryLabel])
+    new Map(docs.map(doc => [doc.category, doc])).values()
+  ).map(d => [d.category, d.categoryLabel])
   const tabs = [['all', 'すべて'], ...categories]
   const [filter, setFilter] = useState('all')
   const [displayItems, setDisplayItems] = useState(docs)
@@ -37,7 +37,7 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
   ) => {
     setFilter(f)
     setDisplayItems(
-      docs.filter((doc) => (f === 'all' ? true : doc.category === f))
+      docs.filter(doc => (f === 'all' ? true : doc.category === f))
     )
   }
 
@@ -54,7 +54,7 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
           sx={{ my: '2rem', display: { xs: 'none', md: 'block' } }}
           aria-label="cagerory select"
         >
-          {tabs.map((tab) => {
+          {tabs.map(tab => {
             const [category, categoryLabel] = tab
             return <Tab key={category} value={category} label={categoryLabel} />
           })}
@@ -63,10 +63,10 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
           <Select
             id="category-select"
             value={filter}
-            onChange={(e) => handleChange(e, e.target.value)}
+            onChange={e => handleChange(e, e.target.value)}
             fullWidth
           >
-            {tabs.map((tab) => {
+            {tabs.map(tab => {
               const [category, categoryLabel] = tab
               return (
                 <MenuItem key={category} value={category}>
@@ -91,7 +91,7 @@ export default Home
 export async function getStaticProps() {
   const files = fs.readdirSync('docs')
   const docs = files
-    .map((file) => {
+    .map(file => {
       const data = fs.readFileSync(`docs/${file}`).toString()
       return {
         ...matter(data).data,
