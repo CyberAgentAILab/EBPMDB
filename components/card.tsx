@@ -1,11 +1,6 @@
-import { FunctionComponent } from "react";
-import {
-  Link,
-  Typography,
-  Grid,
-  Paper,
-} from '@mui/material'
-import { DocumentMeta } from "../interfaces/document";
+import { FunctionComponent } from 'react'
+import { Link, Typography, Grid, Paper } from '@mui/material'
+import { DocumentMeta } from '../interfaces/document'
 import EvidenceTable from './evidence-table'
 
 interface IProps {
@@ -18,16 +13,36 @@ const DCard: FunctionComponent<IProps> = ({ doc }) => {
   return (
     <Paper elevation={1} sx={{ my: '2rem' }}>
       <Grid container columns={20}>
-        <Grid item xs={2} sx={{ px: '1rem', py: '2rem' }}>
-          <Typography component="div" variant="body1">{categoryLabel}</Typography>
+        <Grid item lg={2} md={12} sx={{ px: '1rem', py: '2rem' }}>
+          <Typography component="div" variant="body1">
+            {categoryLabel}
+          </Typography>
         </Grid>
-        <Grid item xs={8} sx={{ px: '1rem', py: '2rem' }}>
+        <Grid
+          item
+          lg={8}
+          md={12}
+          sx={{ px: '1rem', py: { xs: '0', md: '2rem' } }}
+        >
           <Link href={`/EBPMDB/doc/${slug}`}>
-            <Typography component="h2" variant="h5">{title}</Typography>
+            <Typography component="h2" variant="h5">
+              {title}
+            </Typography>
           </Link>
-          <Typography component="p" variant="body1" sx={{ mt: 2 }}>{description}</Typography>
+          <Typography component="p" variant="body1" sx={{ mt: 2 }}>
+            {description}
+          </Typography>
         </Grid>
-        <Grid item xs={10} sx={{ px: '1rem', py: '2rem' }}>
+        <Grid
+          item
+          xs={10}
+          sx={{
+            px: '1rem',
+            py: '2rem',
+            maxWidth: { xs: '100%', md: '50%' },
+            flexBasis: { xs: '100%', md: '50%' },
+          }}
+        >
           {tables.map((table, i) => (
             <EvidenceTable key={i} table={table} />
           ))}
