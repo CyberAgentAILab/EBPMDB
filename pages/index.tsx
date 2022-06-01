@@ -15,7 +15,7 @@ import {
 } from "@mui/material";
 import matter from "gray-matter";
 import { DocumentMeta } from "../interfaces/document";
-import { FunctionComponent, ReactNode, SyntheticEvent, useState } from "react";
+import { FunctionComponent, SyntheticEvent, useState } from "react";
 import fs from "fs";
 import Header from "../components/header";
 
@@ -33,9 +33,9 @@ const Home: FunctionComponent<IProps> = ({ docs }) => {
 
 	const handleChange = (
 		_: SyntheticEvent | SelectChangeEvent<string>,
-		f: ReactNode
+		f: string
 	) => {
-		setFilter(f as string);
+		setFilter(f);
 		setDisplayItems(
 			docs.filter((doc) => (f === "all" ? true : doc.category === f))
 		);
