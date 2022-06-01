@@ -17,9 +17,9 @@ export default function EvidenceTable(props: {
 			columns={10}
 			component="dl"
 			sx={{
-				py: 1,
+				py: { xs: 2, md: 1 },
 				flexDirection: { xs: "column", md: "row" },
-				gap: { xs: "1rem", md: "0" },
+				gap: { xs: "1rem", md: 0 },
 			}}
 			className="table-border"
 		>
@@ -36,7 +36,9 @@ export default function EvidenceTable(props: {
 					component="dt"
 					variant="body1"
 					sx={{
-						display: { xs: "block", md: "none" },
+						display: { xs: "flex", md: "none" },
+						alignItems: "center",
+						flexBasis: "40%",
 					}}
 				>
 					評価指標
@@ -46,6 +48,10 @@ export default function EvidenceTable(props: {
 					variant="body1"
 					sx={{
 						fontWeight: "bold",
+						display: { xs: "flex", md: "block" },
+						flexBasis: "60%",
+						justifyContent: "flex-end",
+						alignItems: "center",
 					}}
 				>
 					{title}
@@ -56,7 +62,7 @@ export default function EvidenceTable(props: {
 				lg={2}
 				md={12}
 				sx={{
-					px: "1rem",
+					px: { xs: 0, md: "1rem" },
 					display: { xs: "flex", md: "block" },
 					justifyContent: "space-between",
 				}}
@@ -65,7 +71,7 @@ export default function EvidenceTable(props: {
 					component="dt"
 					variant="body1"
 					sx={{
-						display: { xs: "block", md: "none" },
+						display: { xs: "flex", md: "none" },
 					}}
 				>
 					効果
