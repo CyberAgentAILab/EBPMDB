@@ -2,12 +2,13 @@ import { FunctionComponent } from "react";
 import fs from "fs";
 import matter from "gray-matter";
 import { DocumentInfo } from "../../interfaces/document";
-import { Container, Typography, Grid } from "@mui/material";
+import { Container, Typography, Grid, Link } from "@mui/material";
 import Navigation from "../../components/navigation";
 import Markdown from "../../components/markdown";
 import MarkdownList from "../../components/markdown-list";
 import EvidenceTable from "../../components/evidence-table";
 import Footer from "../../components/footer";
+import { Help } from "@mui/icons-material";
 
 interface IProps {
 	doc: DocumentInfo;
@@ -38,16 +39,26 @@ const Document: FunctionComponent<IProps> = ({ doc }) => {
 						<Grid item xs={2} sx={{ px: "1rem" }}>
 							<Typography component="h3" variant="body1">
 								効果
+								<Link href={`/EBPMDB/effectiveness`}>
+									<Help
+										sx={{ position: "relative", top: "3px", fontSize: "18px" }}
+									/>
+								</Link>
 							</Typography>
 						</Grid>
 						<Grid item xs={3}>
 							<Typography component="h3" variant="body1">
 								証拠の強さ
+								<Link href={`/EBPMDB/sms`}>
+									<Help
+										sx={{ position: "relative", top: "3px", fontSize: "18px" }}
+									/>
+								</Link>
 							</Typography>
 						</Grid>
 					</Grid>
 					{doc.meta.tables.map((table, i) => (
-						<EvidenceTable key={i} table={table} helpIcon={false} />
+						<EvidenceTable key={i} table={table} />
 					))}
 					<Typography component="h3" variant="h6" sx={{ marginTop: "2em" }}>
 						ポイント
