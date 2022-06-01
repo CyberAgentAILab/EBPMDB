@@ -15,7 +15,10 @@ const Guidance: FunctionComponent = () => {
       <Grid container spacing={4}>
         <Grid item lg={6} md={12}>
           <Card>
-            <Box sx={{ mt: 2 }} className="howto-image guidance-image" />
+            <Box
+              sx={{ mt: 2, display: { xs: 'none', md: 'block' } }}
+              className="howto-image guidance-image"
+            />
             <CardContent sx={{ p: 4 }}>
               <Typography component="h2" variant="h4" sx={{ mb: 2 }}>
                 政策担当者の方へ
@@ -33,7 +36,10 @@ const Guidance: FunctionComponent = () => {
         </Grid>
         <Grid item lg={6} md={12}>
           <Card sx={{ height: '100%' }}>
-            <Box sx={{ mt: 2 }} className="report-image guidance-image" />
+            <Box
+              sx={{ mt: 2, display: { xs: 'none', md: 'block' } }}
+              className="report-image guidance-image"
+            />
             <CardContent sx={{ p: 4 }}>
               <Typography component="h2" variant="h4" sx={{ mb: 2 }}>
                 研究者の方へ
