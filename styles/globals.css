@@ -64,6 +64,10 @@ a {
   background-position-y: center;
 }
 
+.markdown {
+  word-break: break-all;
+}
+
 .markdown h2 {
   margin-top: 2.5em;
 }
