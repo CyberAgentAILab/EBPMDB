@@ -78,7 +78,7 @@ const Document: FunctionComponent<IProps> = ({ doc }) => {
 
 export async function getStaticPaths() {
   const files = fs.readdirSync('docs')
-  const paths = files.map((file) => ({
+  const paths = files.map(file => ({
     params: {
       slug: file.split('.')[0],
     },

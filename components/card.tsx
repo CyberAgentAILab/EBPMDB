@@ -1,15 +1,15 @@
-import { FunctionComponent } from 'react';
-import { Link, Typography, Grid, Paper } from '@mui/material';
-import { DocumentMeta } from '../interfaces/document';
-import EvidenceTable from './evidence-table';
+import { FunctionComponent } from 'react'
+import { Link, Typography, Grid, Paper } from '@mui/material'
+import { DocumentMeta } from '../interfaces/document'
+import EvidenceTable from './evidence-table'
 
 interface IProps {
-  doc: DocumentMeta;
+  doc: DocumentMeta
 }
 
 const DCard: FunctionComponent<IProps> = ({ doc }) => {
-  const { title, description, tables, categoryLabel } = doc;
-  const slug = doc.slug;
+  const { title, description, tables, categoryLabel } = doc
+  const slug = doc.slug
   return (
     <Paper elevation={1} sx={{ my: '2rem' }}>
       <Grid container columns={20}>
@@ -49,7 +49,7 @@ const DCard: FunctionComponent<IProps> = ({ doc }) => {
         </Grid>
       </Grid>
     </Paper>
-  );
-};
+  )
+}
 
-export default DCard;
+export default DCard
