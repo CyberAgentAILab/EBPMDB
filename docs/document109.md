@@ -9,7 +9,7 @@ tables: [
   {
     "title": "育児による労働時間問題",
     "effectiveness": "効果あり",
-    "strength": 3
+    "strength": 2
   }
 ]
 
@@ -36,9 +36,9 @@ contacts:
 - quasi-experimental model
 
 ## 証拠の強さ
-    - SMS: 3
-    - 根拠 
-        - 介入群と非介入群の比較可能性が提示
+- SMS: 2
+- 根拠 
+  - 介入群と非介入群の比較可能性が提示
 
 ## サンプル
 - 最低一人13歳未満の子供が家庭にいる女性
