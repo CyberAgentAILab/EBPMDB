@@ -18,7 +18,7 @@ points:
     - 一方、第二子出生時の父親の育休取得と第三子出生は、アイスランドでは有意な関係が見られず、ノルウェーとスウェーデンでは負の関係が見られた。
 
 contacts:
-    - オックスフォード大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -52,4 +52,4 @@ contacts:
 - 育休の取りやすさを示す職場環境の変数がない
 
 ## 書誌情報
-- Duvander, A-Z., Lappegård, T., Anderson, S. N., Gararsdóttir, Ó., Neyer, G., & Viklund, I. (2019). Parental leave policies and continued childbearing in Iceland, Norway, and Sweden. Demographic Research, 40(51):1501–1528.
+- Duvander, A-Z., Lappegård, T., Anderson, S. N., Gararsdóttir, Ó., Neyer, G., & Viklund, I. (2019). [Parental leave policies and continued childbearing in Iceland, Norway, and Sweden](https://www.demographic-research.org/volumes/vol40/51/default.htm). *Demographic Research*, 40(51):1501–1528.

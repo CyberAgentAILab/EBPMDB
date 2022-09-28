@@ -49,4 +49,4 @@ contacts:
 - 分析手法として同一生徒の別科目の点数の違いを用いているため、特定の科目の効果が不明
 
 ## 書誌情報
-- Van Klaveren, C. (2011). Lecturing style teaching and student performance. Economics of Education Review, 30(4), 729-739.
+- Van Klaveren, C. (2011). [Lecturing style teaching and student performance](https://www.sciencedirect.com/science/article/pii/S0272775710001147). *Economics of Education Review*, 30(4): 729-739.

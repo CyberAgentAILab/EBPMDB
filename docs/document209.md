@@ -67,4 +67,4 @@ contacts:
 - 教育水準や所得、きょうだいの数といった個人の属性データがない
 
 ## 書誌情報
-- Fukushima, K., Mizuoka, S., Yamamoto, S., & Iizuka, T. (2016). Patient cost sharing and medical expenditures for the Elderly. Journal of Health Economics, 45, 115–130. https://doi.org/10.1016/j.jhealeco.2015.10.005
+- Fukushima, K., Mizuoka, S., Yamamoto, S., & Iizuka, T. (2016). [Patient cost sharing and medical expenditures for the Elderly](https://www.sciencedirect.com/science/article/pii/S0167629615001174?via%3Dihub). *Journal of Health Economics*, 45: 115–130.

@@ -17,7 +17,7 @@ points:
     - 家族手当の情報を提示したことによって、介入群の結婚意欲は上昇した
 
 contacts:
-    - 南デンマーク大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -58,4 +58,4 @@ contacts:
 
 
 ## 書誌情報
-- Gong, S. & Wang, S. (2021). Family policy awareness and marital intentions: A national survey experimental study. Demography, 59(1): 247-266.
+- Gong, S. & Wang, S. (2021). [Family policy awareness and marital intentions: A national survey experimental study](https://read.dukeupress.edu/demography/article/59/1/247/288211/Family-Policy-Awareness-and-Marital-Intentions-A). *Demography*, 59(1): 247-266.

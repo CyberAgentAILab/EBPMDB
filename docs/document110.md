@@ -17,7 +17,7 @@ points:
     - 1歳時の保育園は、2歳時での言語スキルには正、運動能力は効果なし、行動には負の効果
 
 contacts:
-    - 南デンマーク大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -60,4 +60,4 @@ contacts:
 - 他のパネルデータと同様にパネルが進む度にサンプルが減ってしまう。特にdisadvantagedな家族が回答しなくなる傾向にあるため、今回見られた効果は過小に見積もられているかもしれない
 
 ## 書誌情報
-- Berger, L.M., Panico, L., & Solaz, A. (2021). The impact of center-based childcare Attendance on early child development: Evidence from the French Elfe cohort. Demography, 58(2): 419-450.
+- Berger, L.M., Panico, L., & Solaz, A. (2021). [The impact of center-based childcare Attendance on early child development: Evidence from the French Elfe cohort](https://read.dukeupress.edu/demography/article/58/2/419/168404/The-Impact-of-Center-Based-Childcare-Attendance-on?searchresult=1). *Demography*, 58(2): 419-450.

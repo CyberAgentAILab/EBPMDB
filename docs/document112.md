@@ -17,7 +17,7 @@ points:
     - 世帯収入、チャイルドケアの利用可能性、夫の正規労働の3つが高い希望出生数につながる要素だった
 
 contacts:
-    - 南デンマーク大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -67,4 +67,4 @@ National University of Kyiv　（2017年）の217人の学生
 
 
 ## 書誌情報
-- Karabchuk, T., Dulmer, H., & Gastskova, K. (2022). Fertility attidudes of highly educated youth: A factorial survey. Journal of Marriage and Family, 84: 32-52.
+- Karabchuk, T., Dulmer, H., & Gastskova, K. (2022). [Fertility attidudes of highly educated youth: A factorial survey](https://onlinelibrary.wiley.com/doi/full/10.1111/jomf.12790). *Journal of Marriage and Family*, 84: 32-52.

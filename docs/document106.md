@@ -18,7 +18,7 @@ points:
     - 夫の有給取得と葛藤の減少が一部にみられる
 
 contacts:
-    - オックスフォード大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -52,4 +52,4 @@ contacts:
 - 現在の子ども数（パリティ）を統制していない
 
 ## 書誌情報
-- Farré, L. & González, L. (2019). Does paternity leave reduce fertility? Journal of Public Economics, 172: 52–66.
+- Farré, L. & González, L. (2019). [Does paternity leave reduce fertility?](https://www.sciencedirect.com/science/article/pii/S0047272718302299) *Journal of Public Economics*, 172: 52–66.

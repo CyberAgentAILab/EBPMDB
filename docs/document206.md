@@ -81,5 +81,5 @@ contacts:
 - 同一企業に勤める従業員のみ捕捉できるので脱落によるバイアスのおそれがあるが、明確なバイアスはみられなかった
 
 ## 書誌情報
-- Iizuka, T., Nishiyama, K., Chen, B., & Eggleston, K. (2021). False alarm? Estimating the marginal value of health signals. Journal of Public Economics, 195, 104368. https://doi.org/10.1016/j.jpubeco.2021.104368
+- Iizuka, T., Nishiyama, K., Chen, B., & Eggleston, K. (2021). [False alarm? Estimating the marginal value of health signals](https://www.sciencedirect.com/science/article/pii/S0047272721000049?via%3Dihub). *Journal of Public Economics*, 195, 104368.
 
