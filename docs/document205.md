@@ -117,4 +117,4 @@ contacts:
 
 ## 書誌情報
 
-- Fu, Rong and Haruko Noguchi. (2019) "Moral hazard under zero price policy: evidence from Japanese long-term care claims data." The European Journal of Health Economics. 20: 785-799.
+- Fu, R. & Noguchi, H. (2019). [Moral hazard under zero price policy: evidence from Japanese long-term care claims data](https://link.springer.com/article/10.1007/s10198-019-01041-6). *The European Journal of Health Economics*. 20: 785-799.

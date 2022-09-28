@@ -80,4 +80,4 @@ OLPC（One Laptop per Child）プログラムは自発的な学習を促進す�
 - 配布された生徒から配布されなかった生徒へのスピルオーバー効果を算出する際の「親しい友達」の有無は自己申告なので必ずしも信頼できない
 
 ## 書誌情報
-- Beuermann, D. W., Cristia, J., Cueto, S., Malamud, O., & Cruz-Aguayo, Y. (2015). One laptop per child at home: Short-term impacts from a randomized experiment in Peru. American Economic Journal: Applied Economics, 7(2), 53-80.
+- Beuermann, D. W., Cristia, J., Cueto, S., Malamud, O., & Cruz-Aguayo, Y. (2015). [One laptop per child at home: Short-term impacts from a randomized experiment in Peru](https://www.aeaweb.org/articles?id=10.1257/app.20130267). *American Economic Journal: Applied Economics*, 7(2): 53-80.
