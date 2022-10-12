@@ -1,13 +1,11 @@
 import Navigation from '../components/navigation'
 import { Container } from '@mui/material'
-import { Typography, Grid, Link } from '@mui/material'
+import { Typography} from '@mui/material'
 import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import Footer from '../components/footer'
 import { FunctionComponent } from 'react'
 
 const committee: FunctionComponent = () => {
