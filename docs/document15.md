@@ -54,4 +54,4 @@ contacts:
 - 同僚教師の質が複数あり、どの結果を重視するべきかが困難
 
 ## 書誌情報
-- Jackson, C. K., & Bruegmann, E. (2009). Teaching students and teaching each other: The importance of peer learning for teachers. American Economic Journal: Applied Economics, 1(4), 85-108.
+- Jackson, C. K., & Bruegmann, E. (2009). [Teaching students and teaching each other: The importance of peer learning for teachers](https://www.aeaweb.org/articles?id=10.1257/app.1.4.85). *American Economic Journal: Applied Economics*, 1(4): 85-108.

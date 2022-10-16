@@ -58,5 +58,5 @@ contacts:
 - 地震の影響によって生徒のバルサキプログラムを受けた日数にばらつきが出ている
 
 ## 書誌情報
-- Banerjee, A. V., Cole, S., Duflo, E., & Linden, L. (2007). Remedying Education: Evidence from Two Randomized Experiments in India*. The Quarterly Journal of Economics, 122(3), 1235–1264. https://doi.org/10.1162/qjec.122.3.1235
+- Banerjee, A. V., Cole, S., Duflo, E., & Linden, L. (2007). [Remedying Education: Evidence from Two Randomized Experiments in India](https://academic.oup.com/qje/article/122/3/1235/1879525). *The Quarterly Journal of Economics*, 122(3): 1235–1264.
      

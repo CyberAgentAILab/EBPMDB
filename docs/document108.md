@@ -18,7 +18,7 @@ points:
     - 特に高学歴女性に大きな効果が見られた
 
 contacts:
-    - 南デンマーク大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -53,4 +53,4 @@ contacts:
 - 初婚の女性に限っており、イスラエル系アラブ人をデータから除いているため、結果の代表性に懸念
 
 ## 書誌情報
-- Schellekens, J. (2009). Family allowances and fertility: Socioeconomic differences. Demography, 46(3): 451-468.
+- Schellekens, J. (2009). [Family allowances and fertility: Socioeconomic differences](https://link.springer.com/article/10.1353/dem.0.0067). *Demography*, 46(3): 451-468.

@@ -51,4 +51,4 @@ contacts:
 - ひとつの市町村のデータでの検証でしかないため一般化するためにはより多くのデータが必要である
 
 ## 書誌情報
-- Tanaka, R., & Ishizaki, K. (2018). Do teaching practices matter for students’ academic achievement? A case of linguistic activity. Journal of the Japanese and International Economies, 50, 26-36.
+- Tanaka, R., & Ishizaki, K. (2018). [Do teaching practices matter for students’ academic achievement? A case of linguistic activity](https://www.sciencedirect.com/science/article/pii/S0889158318300170). *Journal of the Japanese and International Economies*, 50: 26-36.

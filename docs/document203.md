@@ -86,4 +86,4 @@ contacts:
 - この研究では就労していることに焦点を当てているが、労働時間や賃金に与える影響を考慮する必要がある
 
 ## 書誌情報
-- Fu, Rong, Haruko Noguchi, Akira Kawamura, Hideto Takahashi, and Nakako Tamiya. (2017) "Spillover effect of Japanese long-term care insurance as an employment promotion policy for family caregivers." Journal of Health Economics, 56:103-112.
+- Fu, R., Noguchi, H., Kawamura, A., Takahashi, H., & Tamiya, N. (2017). [Spillover effect of Japanese long-term care insurance as an employment promotion policy for family caregivers](https://www.sciencedirect.com/science/article/pii/S0167629616304945). *Journal of Health Economics*, 56:103-112.

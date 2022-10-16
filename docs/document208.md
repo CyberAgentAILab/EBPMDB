@@ -77,4 +77,4 @@ contacts:
 - 
 
 ## 書誌情報
-- Iizuka, T., & Watanabe, Y. (2016). The Impact of Physician Supply on the Healthcare System: Evidence from Japan’s New Residency Program. Health Economics, 25(11), 1433–1447. https://doi.org/10.1002/hec.3229                    
+- Iizuka, T. & Watanabe, Y. (2016). [The Impact of Physician Supply on the Healthcare System: Evidence from Japan’s New Residency Program](https://onlinelibrary.wiley.com/doi/10.1002/hec.3229). *Health Economics*, 25(11): 1433–1447.                    

@@ -23,7 +23,7 @@ points:
     - 夫の有給取得と葛藤の減少が一部にみられる
 
 contacts:
-    - オックスフォード大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -60,4 +60,4 @@ contacts:
 - クロスセクションデータを使っているため、また未観察変数を統制できないため、セレクションバイアスを避けられない
 
 ## 書誌情報
-- Petts, R. & Knoester, C. (2018). Paternity leave and parental relationships: Variations by gender and mothers' work statuses. Journal of Marriage and Family, 81: 468–486.
+- Petts, R. & Knoester, C. (2018). [Paternity leave and parental relationships: Variations by gender and mothers' work statuses](https://onlinelibrary.wiley.com/doi/full/10.1111/jomf.12545). *Journal of Marriage and Family*, 81: 468–486.

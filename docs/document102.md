@@ -19,7 +19,7 @@ points:
     - 妻単独の育休期間が長くなるほど夫側、妻側から見た夫婦関係の満足度は低くなる。
 
 contacts:
-  - オックスフォード大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+  - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
   
 ---
 
@@ -55,4 +55,4 @@ contacts:
 - データの欠損による脱落
 
 ## 書誌情報
-- Goldacker, K., Wilhelm, J., Wirag, S., Dahl, P., Riotte, T., & Schober, P. S. (2022). Shared leave, happier parent couples? Parental leave and relationship satisfaction in Germany. Journal of European Social Policy. online first.
+- Goldacker, K., Wilhelm, J., Wirag, S., Dahl, P., Riotte, T., & Schober, P. S. (2022). [Shared leave, happier parent couples? Parental leave and relationship satisfaction in Germany](https://journals.sagepub.com/doi/full/10.1177/09589287211056187). *Journal of European Social Policy*. online first.

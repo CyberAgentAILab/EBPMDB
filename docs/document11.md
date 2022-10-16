@@ -64,4 +64,4 @@ contacts:
 - 特になし
 
 ## 書誌情報
-- Fairlie, R. W., & Robinson, J. (2013). Experimental evidence on the effects of home computers on academic achievement among schoolchildren. American Economic Journal: Applied Economics, 5(3), 211-40.
+- Fairlie, R. W., & Robinson, J. (2013). [Experimental evidence on the effects of home computers on academic achievement among schoolchildren](https://www.aeaweb.org/articles?id=10.1257/app.5.3.211). *American Economic Journal: Applied Economics*, 5(3): 211-240.

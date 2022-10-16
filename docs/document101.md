@@ -17,7 +17,7 @@ points:
     - 高収入グループにおいて制度改正による第一子出生確率の上昇がみられた
 
 contacts:
-  - オックスフォード大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+  - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -57,4 +57,4 @@ contacts:
 - 因果推論モデルではないので、育児休業の法改正以外の要因を必ずしも排除しきれていない
 
 ## 書誌情報
-- Kreyenfeld, M. (2021). Causal modelling in fertility research: A review of the literature and an application to a parental leave policy reform. Comparative Population Studies, 46:269–302.
+- Kreyenfeld, M. (2021). [Causal modelling in fertility research: A review of the literature and an application to a parental leave policy reform](https://comparativepopulationstudies.de/index.php/CPoS/article/view/446). *Comparative Population Studies*, 46:269–302.

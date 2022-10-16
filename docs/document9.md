@@ -58,4 +58,4 @@ contacts:
 - 授業スタイルはアンケート結果に基づいているが生徒と教師の回答が必ずしも一致しているわけではないので不正確な可能性がある。
 
 ## 書誌情報
-- Hidalgo-Cabrillana, A., & Lopez-Mayan, C. (2018). Teaching styles and achievement: Student and teacher perspectives. Economics of Education Review, 67, 184-206.
+- Hidalgo-Cabrillana, A., & Lopez-Mayan, C. (2018). [Teaching styles and achievement: Student and teacher perspectives](https://www.sciencedirect.com/science/article/pii/S0272775717300717). *Economics of Education Review*, 67: 184-206.
