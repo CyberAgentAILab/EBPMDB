@@ -77,4 +77,4 @@ contacts:
 - 
 
 ## 書誌情報
-- Shigeoka, Hitoshi (2014) "The Effect of Patient Cost Sharing on Utilization, Health, and Risk Protection." American Economic Review, 104(7): 2152-2184.
+- Shigeoka, H. (2014). [The Effect of Patient Cost Sharing on Utilization, Health, and Risk Protection](https://www.aeaweb.org/articles?id=10.1257/aer.104.7.2152). *American Economic Review*, 104(7): 2152-2184.

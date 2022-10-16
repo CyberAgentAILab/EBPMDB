@@ -61,5 +61,5 @@ contacts:
 - 補習を受ける生徒の選抜方法が統一されておらず各教員の裁量によるものとなっている。
 
 ## 書誌情報
-- Bessho, S. I., Noguchi, H., Kawamura, A., Tanaka, R., & Ushijima, K. (2019). Evaluating remedial education in elementary schools: Administrative data from a municipality in Japan. Japan and the World Economy, 50, 36-46.
+- Bessho, S. I., Noguchi, H., Kawamura, A., Tanaka, R., & Ushijima, K. (2019). [Evaluating remedial education in elementary schools: Administrative data from a municipality in Japan](https://www.sciencedirect.com/science/article/pii/S0922142519300076). *Japan and the World Economy*, 50: 36-46.
 - 別所　俊一郎、田中　隆一, 牛島　光一, 川村　顕, 野口　晴子 「区立小学校での補習の効果：足立区のケース」, 財務省財務総合政策研究所「フィナンシャル・レビュー」令和元年第６号（通巻第141号）2019年12月

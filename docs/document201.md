@@ -75,4 +75,4 @@ contacts:
 - 教育水準や所得、きょうだいの数といった個人の属性データがない
 
 ## 書誌情報
-- Iizuka, Toshiaki and Hitoshi Shigeoka. (2021) "Asymmetric Demand Response when Prices Increase and Decrease: The Case of Child Healthcare." Review of Economics and Statistics, forthcoming
+- Iizuka, T. & Shigeoka, H. (2021). [Asymmetric Demand Response when Prices Increase and Decrease: The Case of Child Healthcare](https://direct.mit.edu/rest/article-abstract/doi/10.1162/rest_a_01110/107395/Asymmetric-Demand-Response-When-Prices-Increase?redirectedFrom=fulltext). *Review of Economics and Statistics*, forthcoming.

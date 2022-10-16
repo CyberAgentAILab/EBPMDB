@@ -78,4 +78,4 @@ contacts:
 - 
 
 ## 書誌情報
-- Takaku, Reo and Izumi Yokoyama. (2021) "What the COVID-19 school closure left in its wake: Evidence from a regression discontinuity analysis in Japan" Journal of Public Economics, 195 104364.
+- Takaku, R. & Yokoyama, I. (2021). [What the COVID-19 school closure left in its wake: Evidence from a regression discontinuity analysis in Japan](https://www.sciencedirect.com/science/article/pii/S0047272720302280). *Journal of Public Economics*, 195: 104364.

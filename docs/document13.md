@@ -51,4 +51,4 @@ contacts:
 - 非常に緻密な頑健性チェックを施しているもののランダムな介入ではないことに留意
 
 ## 書誌情報
-- Schwerdt, G., & Wuppermann, A. C. (2011). Is traditional teaching really all that bad? A within-student between-subject approach. Economics of Education Review, 30(2), 365-379.
+- Schwerdt, G., & Wuppermann, A. C. (2011). [Is traditional teaching really all that bad? A within-student between-subject approach](https://www.sciencedirect.com/science/article/pii/S0272775710001640#:~:text=Results%20indicate%20that%20traditional%20lecture,due%20to%20unobservable%20teacher%20characteristics.). *Economics of Education Review*, 30(2): 365-379.

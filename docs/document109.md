@@ -17,7 +17,7 @@ points:
     - 育児補助金を受給している女性は、そうでない女性に比べて、育児に伴う労働時間問題が21％低い
 
 contacts:
-    - 南デンマーク大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -56,4 +56,4 @@ contacts:
 
 
 ## 書誌情報
-- Press, J.E., Fagan, J., & Laughlin, L. (2006). Taking pressure off families: Child-care subsidies lessen mothers' work-hour problems. Journal of Marriage and Family, 68: 155-171.
+- Press, J.E., Fagan, J., & Laughlin, L. (2006). [Taking pressure off families: Child-care subsidies lessen mothers' work-hour problems](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1741-3737.2006.00240.x). *Journal of Marriage and Family*, 68: 155-171.
