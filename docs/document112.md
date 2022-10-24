@@ -34,7 +34,7 @@ contacts:
 - 希望出生数
 
 ## 分析方法
-- vignette analysis
+- ヴィネット分析（回答者をランダムに振り分けるサーベイ実験の一つ）
 
 ## 証拠の強さ
 - SMS: 1
@@ -67,4 +67,4 @@ National University of Kyiv　（2017年）の217人の学生
 
 
 ## 書誌情報
-- Karabchuk, T., Dulmer, H., & Gastskova, K. (2022). [Fertility attidudes of highly educated youth: A factorial survey](https://onlinelibrary.wiley.com/doi/full/10.1111/jomf.12790). *Journal of Marriage and Family*, 84: 32-52.
+- Karabchuk, T., Dulmer, H., & Gastskova, K. (2022). [Fertility attidudes of highly educated youth: A factorial survey](https://onlinelibrary.wiley.com/doi/full/10.1111/jomf.12790). *Journal of Marriage and Family*, 84: 32-52.一つ一つ
