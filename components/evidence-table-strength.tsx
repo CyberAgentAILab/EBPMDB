@@ -1,7 +1,4 @@
-// import { Star, StarBorder } from '@material-ui/icons'
 import { Star, StarBorder } from '@mui/icons-material'
-import { SvgIcon } from '@material-ui/core'
-
 
 export default function EvidenceTableStrength(props: { strength: number }) {
   const defaultRate = 5
@@ -13,14 +10,18 @@ export default function EvidenceTableStrength(props: { strength: number }) {
     } else if (s <= 0) {
       r = 0
     } else {
-      r = s 
+      r = s
     }
     return r
   }
   return (
-    <>
-      {[...Array(getRate(strength))].map((_, i) => <Star sx={{ color: 'orange' }} key={i} />)}
-      {[...Array(defaultRate - getRate(strength))].map((_, j) => <StarBorder sx={{ color: 'gray' }} key={j} />)}
-    </>
+    <div>
+      {[...Array(getRate(strength))].map((_, i) => (
+        <Star sx={{ color: 'orange' }} key={i} />
+      ))}
+      {[...Array(defaultRate - getRate(strength))].map((_, j) => (
+        <StarBorder sx={{ color: 'gray' }} key={j} />
+      ))}
+    </div>
   )
 }

@@ -1,8 +1,10 @@
 ---
 id: "103"
-title: "夫婦の育休取得"
-description: "夫婦の育休取得と出生後1年間の夫婦関係の満足度の関係"
+title: "男性育休を促す育児休業法改正"
+description: "男性育休を促す育児休業法改正が夫婦関係の満足度に与える影響"
 date: "2022-03-10"
+category: "fertility"
+categoryLabel: "少子化対策"
 tables: [
   {
     "title": "出生後1年間の夫婦関係の満足度",
@@ -16,7 +18,7 @@ points:
     - 男性には効果が見られなかった。
 
 contacts:
-  - オックスフォード大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+  - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
   
 ---
 
@@ -50,4 +52,4 @@ contacts:
 - データの欠損による脱落
 
 ## 書誌情報
-- Goldacker, K., Wilhelm, J., Wirag, S., Dahl, P., Riotte, T., & Schober, P. S. (2022). Shared leave, happier parent couples? Parental leave and relationship satisfaction in Germany. Journal of European Social Policy. online first.
+- Goldacker, K., Wilhelm, J., Wirag, S., Dahl, P., Riotte, T., & Schober, P. S. (2022). [Shared leave, happier parent couples? Parental leave and relationship satisfaction in Germany](https://journals.sagepub.com/doi/full/10.1177/09589287211056187). *Journal of European Social Policy*. online first.

@@ -1,8 +1,10 @@
 ---
 id: "14"
 title: "授業に占める講義時間の割合"
-description: "授業において教師が講義している割合は成績と関係がなかった"
+description: "授業において教師が講義している割合が成績に与える影響"
 date: "2022-03-10"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "数学と物理の試験の点数",
@@ -44,7 +46,7 @@ contacts:
 - 教師の講義スタイルと成績には関連が見られなかった
 
 ## 研究の弱点
-- 別科目の点数の違いを用いている点
+- 分析手法として同一生徒の別科目の点数の違いを用いているため、特定の科目の効果が不明
 
 ## 書誌情報
-- Van Klaveren, C. (2011). Lecturing style teaching and student performance. Economics of Education Review, 30(4), 729-739.
+- Van Klaveren, C. (2011). [Lecturing style teaching and student performance](https://www.sciencedirect.com/science/article/pii/S0272775710001147). *Economics of Education Review*, 30(4): 729-739.
