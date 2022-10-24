@@ -3,6 +3,8 @@ id: "107"
 title: "父親の育児休業取得"
 description: "韓国における父親の育児休業と追加出生意欲の関係"
 date: "2022-03-10"
+category: "fertility"
+categoryLabel: "少子化対策"
 tables: [
   {
     "title": "追加的出生意欲",
@@ -16,7 +18,7 @@ points:
     - 育児参加によって子育ての大変さや社会的支援の欠如を認知することが原因と考えられる
 
 contacts:
-    - オックスフォード大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -53,4 +55,4 @@ contacts:
 - ウェブ調査のためデータの代表性に懸念
 
 ## 書誌情報
-- Lee, Y. (2022). Is leave for fathers pronatalist? A mixed-methods study of the impact of fathers' uptake of parental leave on couples' childbearing intentions in South Korea. Population Research and Policy Review. online first.
+- Lee, Y. (2022). [Is leave for fathers pronatalist? A mixed-methods study of the impact of fathers' uptake of parental leave on couples' childbearing intentions in South Korea](https://link.springer.com/article/10.1007/s11113-022-09697-4). *Population Research and Policy Review*. online first.

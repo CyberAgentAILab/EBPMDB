@@ -1,8 +1,10 @@
 ---
 id: "15"
-title: "同僚教師からのピア効果"
-description: "優秀な同僚教師がいる教師は教育効果が向上する"
+title: "優秀な同僚教師からのピア効果"
+description: "優秀な同僚教師がいることによる教育効果への効果"
 date: "2022-03-10"
+category: "education"
+categoryLabel: "教育"
 tables: [
   {
     "title": "数学と国語の成績",
@@ -12,7 +14,7 @@ tables: [
 ]
 
 points:
-    - 良い同僚教師を持つと受け持っている生徒の成績が向上する
+    - 優秀な同僚教師を持つと受け持っている生徒の成績が向上する
     - 同僚教師の質の定義を変えても正の効果がみられた
 
 contacts:
@@ -21,7 +23,8 @@ contacts:
 ---
 
 ## 背景
-- 教師同士の学び合いの効果を検証する
+- 労働者のスキルが周りの労働者に波及するスピルオーバー効果は長年注目されてきた
+- 教師同士の学び合いによって生徒の成績を向上させるかどうかを分析した
 
 ## 介入
 - 優秀な同僚教師の有無
@@ -51,4 +54,4 @@ contacts:
 - 同僚教師の質が複数あり、どの結果を重視するべきかが困難
 
 ## 書誌情報
-- Jackson, C. K., & Bruegmann, E. (2009). Teaching students and teaching each other: The importance of peer learning for teachers. American Economic Journal: Applied Economics, 1(4), 85-108.
+- Jackson, C. K., & Bruegmann, E. (2009). [Teaching students and teaching each other: The importance of peer learning for teachers](https://www.aeaweb.org/articles?id=10.1257/app.1.4.85). *American Economic Journal: Applied Economics*, 1(4): 85-108.

@@ -3,6 +3,8 @@ id: "105"
 title: "父親の育休取得"
 description: "父親の育休取得と夫婦関係の満足度および夫婦間の葛藤"
 date: "2022-03-10"
+category: "fertility"
+categoryLabel: "少子化対策"
 tables: [
   {
     "title": "夫婦関係の満足度",
@@ -21,7 +23,7 @@ points:
     - 夫の有給取得と葛藤の減少が一部にみられる
 
 contacts:
-    - オックスフォード大学 茂木良平/株式会社サイバーエージェント経済学社会実装チーム
+    - 南デンマーク大学 [茂木良平](https://ryomogi.github.io/)/株式会社サイバーエージェント経済学社会実装チーム
 
 ---
 
@@ -45,9 +47,8 @@ contacts:
     - 傾向スコアマッチングによるサンプルバイアスの補正をおこなっている
 
 ## サンプル
-- 4700 couples
-- 調査時点で同居しているカップル
-- 出産時と調査時点（生後9ヶ月）で賃労働している夫がいるカップル
+- 調査時点で同居している4700カップル
+- 出産時と調査時点（生後9ヶ月）で賃労働している夫がいる
 
 ## 結果
 - 夫の育休取得は夫婦関係の満足度に正の関連する
@@ -59,4 +60,4 @@ contacts:
 - クロスセクションデータを使っているため、また未観察変数を統制できないため、セレクションバイアスを避けられない
 
 ## 書誌情報
-- Petts, R. & Knoester, C. (2018). Paternity leave and parental relationships: Variations by gender and mothers' work statuses. Journal of Marriage and Family, 81: 468–486.
+- Petts, R. & Knoester, C. (2018). [Paternity leave and parental relationships: Variations by gender and mothers' work statuses](https://onlinelibrary.wiley.com/doi/full/10.1111/jomf.12545). *Journal of Marriage and Family*, 81: 468–486.

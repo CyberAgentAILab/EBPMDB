@@ -1,12 +1,6 @@
-import { FunctionComponent } from "react";
-import {
-  Box,
-  Card,
-  CardContent,
-  Link,
-  Typography
-} from '@mui/material'
-import { DocumentMeta } from "../interfaces/document";
+import { FunctionComponent } from 'react'
+import { Link, Typography, Grid, Paper } from '@mui/material'
+import { DocumentMeta } from '../interfaces/document'
 import EvidenceTable from './evidence-table'
 
 interface IProps {
@@ -14,24 +8,47 @@ interface IProps {
 }
 
 const DCard: FunctionComponent<IProps> = ({ doc }) => {
-  const { title, description, tables } = doc
-  const ext = process.env.ENV === 'prd' ? '.html' : ''
+  const { title, description, tables, categoryLabel } = doc
+  const slug = doc.slug
   return (
-    <Card sx={{ display: 'flex', my: 4, p: 2, boxShadow: '0 19px 25px -17px rgb(2 31 63 / 30%)' }}>
-      <Box sx={{ display: 'flex', flexDirection: 'column', width: '50%' }}>
-        <CardContent sx={{ flex: '1 0 auto' }}>
-          <Link href={`/doc/${doc.slug}${ext}`}>
-            <Typography component="h2" variant="h5">{title}</Typography>
+    <Paper elevation={1} sx={{ my: '2rem' }}>
+      <Grid container columns={20}>
+        <Grid item lg={2} md={12} sx={{ px: '1rem', py: '2rem' }}>
+          <Typography component="div" variant="body1">
+            {categoryLabel}
+          </Typography>
+        </Grid>
+        <Grid
+          item
+          lg={8}
+          md={12}
+          sx={{ px: '1rem', py: { xs: '0', md: '2rem' } }}
+        >
+          <Link href={`/EBPMDB/doc/${slug}`}>
+            <Typography component="h2" variant="h5">
+              {title}
+            </Typography>
           </Link>
-          <Typography component="p" variant="body1" sx={{ mt: 2 }}>{description}</Typography>
-        </CardContent>
-      </Box>
-      <Box sx={{ width: '50%', borderLeft: 1, p: 1 }}>
-        {tables.map((table, i) => (
-          <EvidenceTable key={i} table={table} />
-        ))}
-      </Box>
-    </Card>
+          <Typography component="p" variant="body1" sx={{ mt: 2 }}>
+            {description}
+          </Typography>
+        </Grid>
+        <Grid
+          item
+          xs={10}
+          sx={{
+            px: '1rem',
+            py: '2rem',
+            maxWidth: { xs: '100%', md: '50%' },
+            flexBasis: { xs: '100%', md: '50%' },
+          }}
+        >
+          {tables.map((table, i) => (
+            <EvidenceTable key={i} table={table} />
+          ))}
+        </Grid>
+      </Grid>
+    </Paper>
   )
 }
 
