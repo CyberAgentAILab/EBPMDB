@@ -5,7 +5,7 @@ import {
   Circle,
   Help,
 } from '@mui/icons-material'
-import { red, green, blueGrey } from '@mui/material/colors'
+import { red, green, blueGrey, lightblue } from '@mui/material/colors'
 
 export default function EvidenceTableEffectiveness(props: {
   effectiveness: string
@@ -13,13 +13,21 @@ export default function EvidenceTableEffectiveness(props: {
   const { effectiveness } = props
   const altGreen = green[500]
   const altGray = blueGrey[400]
+  const altlightblue = lightblue[500]
+  
 
   const component = function (ef: string) {
     switch (ef) {
-      case '効果あり':
+      case '効果あり(良い効果)':
         return (
           <div>
             <AddCircle sx={{ color: altGreen }} />
+          </div>
+        )
+      case '効果あり(悪い効果)':
+        return (
+          <div>
+            <RemoveCircle sx={{ color: altlightblue }} />
           </div>
         )
         break
