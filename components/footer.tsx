@@ -38,7 +38,7 @@ export default function Footer() {
               </Link>
             </Grid>
             <Grid item xs={6} sx={{ textAlign: 'center' }}>
-              <Link href="https://cyberagent.ai/ailab/" target="_blank">
+              <Link href="/EBPMDB/committee">
                 <Typography>運営主体</Typography>
               </Link>
             </Grid>
@@ -51,3 +51,4 @@ export default function Footer() {
     </ThemeProvider>
   )
 }
+
