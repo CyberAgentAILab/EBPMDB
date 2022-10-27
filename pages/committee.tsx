@@ -62,13 +62,17 @@ const committee: FunctionComponent = () => {
 </Typography>
 <TableContainer component={Paper}>
     <Table sx={{minWidth:300}} aria-label="simple table">
-        <TableRow>
+    <TableRow>
+            <TableCell>杉谷和哉</TableCell>
+            <TableCell>岩手県立大学</TableCell>
+        </TableRow>
+    <TableRow>
             <TableCell>髙橋雅生</TableCell>
             <TableCell>一橋大学</TableCell>
         </TableRow>
         <TableRow>
-            <TableCell>杉谷和哉</TableCell>
-            <TableCell>岩手県立大学</TableCell>
+            <TableCell>中室牧子</TableCell>
+            <TableCell>慶應義塾大学</TableCell>
         </TableRow>
         <TableRow>
             <TableCell>茂木良平</TableCell>
