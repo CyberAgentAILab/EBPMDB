@@ -77,19 +77,6 @@ const committee: FunctionComponent = () => {
           serviceName: github,
           serviceUrl: 'https://github.com/daimoriwaki',
         },
-        /* Sample */
-        // {
-        //   serviceName: twitter,
-        //   serviceUrl: 'https://twitter.com/',
-        // },
-        // {
-        //   serviceName: facebook,
-        //   serviceUrl: 'https://www.facebook.com/',
-        // },
-        // {
-        //   serviceName: pageUrl,
-        //   serviceUrl: 'https://www.example.com/',
-        // },
       ],
     },
   ];
