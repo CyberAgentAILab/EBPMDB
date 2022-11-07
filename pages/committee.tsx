@@ -13,18 +13,18 @@ const committee: FunctionComponent = () => {
   const twitter = Symbol()
   const facebook = Symbol()
   const pageUrl = Symbol()
-
-  type AccountServices = typeof github | typeof twitter | typeof facebook | typeof pageUrl
+  type ServiceSymbols = typeof github | typeof twitter | typeof facebook | typeof pageUrl
   
-  interface AccountProps {
-    accountServiceName: AccountServices
-    accountServiceUrl: string
+  interface AccountService {
+    serviceName: ServiceSymbols
+    serviceUrl: string
   }
+
   interface Member {
     name: string
     organization: string
     avatarUrl: string
-    accounts: AccountProps[]
+    accounts: AccountService[]
   }
 
   const committeeMembers: Member[] = [
@@ -40,8 +40,8 @@ const committee: FunctionComponent = () => {
       avatarUrl: 'https://avatars.githubusercontent.com/u/20162070?v=4',
       accounts: [
         {
-          accountServiceName: github,
-          accountServiceUrl: 'https://github.com/HirotakeIto',
+          serviceName: github,
+          serviceUrl: 'https://github.com/HirotakeIto',
         },
       ]
     },
@@ -63,8 +63,8 @@ const committee: FunctionComponent = () => {
       avatarUrl: 'https://avatars.githubusercontent.com/u/83002005?v=4',
       accounts: [
         {
-          accountServiceName: github,
-          accountServiceUrl: 'https://github.com/ryaukwan',
+          serviceName: github,
+          serviceUrl: 'https://github.com/ryaukwan',
         },
       ],
     },
@@ -74,27 +74,27 @@ const committee: FunctionComponent = () => {
       avatarUrl: 'https://avatars.githubusercontent.com/u/29854085?v=4',
       accounts: [
         {
-          accountServiceName: github,
-          accountServiceUrl: 'https://github.com/daimoriwaki',
+          serviceName: github,
+          serviceUrl: 'https://github.com/daimoriwaki',
         },
         /* Sample */
         // {
-        //   accountServiceName: twitter,
-        //   accountServiceUrl: 'https://twitter.com/',
+        //   serviceName: twitter,
+        //   serviceUrl: 'https://twitter.com/',
         // },
         // {
-        //   accountServiceName: facebook,
-        //   accountServiceUrl: 'https://www.facebook.com/',
+        //   serviceName: facebook,
+        //   serviceUrl: 'https://www.facebook.com/',
         // },
         // {
-        //   accountServiceName: pageUrl,
-        //   accountServiceUrl: 'https://www.example.com/',
+        //   serviceName: pageUrl,
+        //   serviceUrl: 'https://www.example.com/',
         // },
       ],
     },
   ];
 
-  const advisers = [
+  const advisers: Member[] = [
     {
       name: '杉谷和哉',
       organization: '岩手県立大学',
@@ -127,10 +127,10 @@ const committee: FunctionComponent = () => {
     },
   ]
 
-  const Account: FunctionComponent<AccountProps> = props => {
-    const { accountServiceName, accountServiceUrl } = props
-    const accountConf = (s: AccountServices) => {
-      switch (s) {
+  const AccountIconButton: FunctionComponent<AccountService> = props => {
+    const { serviceName, serviceUrl } = props
+    const accountConf = (serviceName: ServiceSymbols) => {
+      switch (serviceName) {
         case github:
           return {
             color: '#000000',
@@ -160,9 +160,9 @@ const committee: FunctionComponent = () => {
     }
     return (
       <IconButton
-        sx={{ color: accountConf(accountServiceName).color }}
-        href={accountServiceUrl} target="_blank">
-        {accountConf(accountServiceName).icon}
+        sx={{ color: accountConf(serviceName).color }}
+        href={serviceUrl} target="_blank">
+        {accountConf(serviceName).icon}
       </IconButton>
     )
   }
@@ -185,14 +185,16 @@ const committee: FunctionComponent = () => {
         </Typography>
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 8, sm: 8, md: 12 }}>
           {committeeMembers.map((member: Member, index) => (
-            <Grid item xs={8} sm={4} md={4} key={index}>
+            <Grid item xs={8} sm={8} md={4} key={index}>
               <Card>
                 <CardContent sx={{ pb: 0 }}>
                   <Grid container spacing={{ xs: 1, md: 2 }} columns={{ xs: 12, sm: 12, md: 12 }}>
                     <Grid item columns={{ xs: 2, sm: 2, md: 2 }} sx={{ mt: '0.5em' }}>
-                      <Avatar>
-                        <PersonIcon />
-                      </Avatar>
+                      {
+                        member.avatarUrl === ''
+                          ? <Avatar><PersonIcon /></Avatar>
+                          : <Avatar alt={member.name} src={member.avatarUrl} />
+                      }
                     </Grid>
                     <Grid item columns={{ xs: 8, sm: 8, md: 8 }}>
                     <Typography gutterBottom variant="caption" component="div">
@@ -206,10 +208,11 @@ const committee: FunctionComponent = () => {
                 </CardContent>
                 <CardActions disableSpacing={true} sx={{ pt: 0, pl: '1em', justifyContent: 'flex-end' }}>
                   <Box sx={{ minHeight: 40 }}>
-                    {member.accounts.map(account => (
-                      <Account
-                        accountServiceName={account.accountServiceName}
-                        accountServiceUrl={account.accountServiceUrl}
+                    {member.accounts.map((account, index) => (
+                      <AccountIconButton
+                        key={index}
+                        serviceName={account.serviceName}
+                        serviceUrl={account.serviceUrl}
                       />
                     ))}
                   </Box>
@@ -226,14 +229,16 @@ const committee: FunctionComponent = () => {
         </Typography>
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 8, sm: 8, md: 12 }}>
           {advisers.map((member: Member, index) => (
-            <Grid item xs={8} sm={4} md={4} key={index}>
+            <Grid item xs={8} sm={8} md={4} key={index}>
               <Card>
                 <CardContent sx={{ pb: 0 }}>
                   <Grid container spacing={{ xs: 1, md: 2 }} columns={{ xs: 12, sm: 12, md: 12 }}>
                     <Grid item columns={{ xs: 2, sm: 2, md: 2 }} sx={{ mt: '0.5em' }}>
-                      <Avatar>
-                        <PersonIcon />
-                      </Avatar>
+                      {
+                        member.avatarUrl === ''
+                          ? <Avatar><PersonIcon /></Avatar>
+                          : <Avatar alt={member.name} src={member.avatarUrl} />
+                      }
                     </Grid>
                     <Grid item columns={{ xs: 8, sm: 8, md: 8 }}>
                     <Typography gutterBottom variant="caption" component="div">
@@ -247,10 +252,11 @@ const committee: FunctionComponent = () => {
                 </CardContent>
                 <CardActions disableSpacing={true} sx={{ pt: 0, pl: '1em', justifyContent: 'flex-end' }}>
                   <Box sx={{ minHeight: 40 }}>
-                    {member.accounts.map(account => (
-                      <Account
-                        accountServiceName={account.accountServiceName}
-                        accountServiceUrl={account.accountServiceUrl}
+                    {member.accounts.map((account, index) => (
+                      <AccountIconButton
+                        key={index}
+                        serviceName={account.serviceName}
+                        serviceUrl={account.serviceUrl}
                       />
                     ))}
                   </Box>
