@@ -263,7 +263,7 @@ const committee: FunctionComponent = () => {
             <IconButton
               href="https://www.cyberagent.co.jp/"
               target="_blank"
-              sx={{ borderRadius: "4px" }}
+              sx={{ borderRadius: "4px", border: "1px solid #cfd8dc", }}
             >
               <img src="/EBPMDB/cyberagent_logo.png" width="75%" alt="株式会社サイバーエージェント" />
             </IconButton>
@@ -272,7 +272,7 @@ const committee: FunctionComponent = () => {
             <IconButton
               href="https://www.murc.jp/"
               target="_blank"
-              sx={{ borderRadius: "4px", }}
+              sx={{ borderRadius: "4px", border: "1px solid #cfd8dc", }}
             >
               <img src="/EBPMDB/ufj_logo.png" width="75%" alt="三菱UFJリサーチ&コンサルティング" />
             </IconButton>
