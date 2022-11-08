@@ -1,6 +1,6 @@
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
-import {Container, Typography, Card, CardContent, CardActions, Avatar, Grid, IconButton, Box } from '@mui/material'
+import {Container, Typography, Card, CardContent, CardActions, Avatar, Grid, IconButton, Box, Link} from '@mui/material'
 import PersonIcon from '@mui/icons-material/Person'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import FacebookIcon from '@mui/icons-material/Facebook'
@@ -258,6 +258,26 @@ const committee: FunctionComponent = () => {
         <Typography component="p" variant="body1" sx={{ my: '1.5em' }}>
           協働機関は所属社員のEBPMデータベースに関する活動を支援しています。
         </Typography>
+        <Grid container spacing={{ xs: 1, md: 4 }} columns={{ xs: 8, sm: 8, md: 8 }}>
+          <Grid item xs={8} sm={4} md={4}>
+            <IconButton
+              href="https://www.cyberagent.co.jp/"
+              target="_blank"
+              sx={{ borderRadius: "4px" }}
+            >
+              <img src="/EBPMDB/cyberagent_logo.png" width="75%" alt="株式会社サイバーエージェント" />
+            </IconButton>
+          </Grid>
+          <Grid item xs={8} sm={4} md={4}>
+            <IconButton
+              href="https://www.murc.jp/"
+              target="_blank"
+              sx={{ borderRadius: "4px", }}
+            >
+              <img src="/EBPMDB/ufj_logo.png" width="75%" alt="三菱UFJリサーチ&コンサルティング" />
+            </IconButton>
+          </Grid>
+        </Grid>
       </Container>
       <Footer />
     </>
