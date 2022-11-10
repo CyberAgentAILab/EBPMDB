@@ -1,4 +1,3 @@
-//const urlPrefix = process.env.URL_PREFIX ? '/' + process.env.URL_PREFIX : ''
 const urlPrefix = '/EBPMDB'
 /** @type {import('next').NextConfig} */
 module.exports = {
@@ -7,11 +6,16 @@ module.exports = {
   basePath: urlPrefix,
   trailingSlash: true,
   publicRuntimeConfig: { urlPrefix }, 
-  // exportPathMaps: async function(defaultPathMap, { dev, dir, outDir, distDir, buildID }) {
-  //   return {
-  //     '/': { page: '/' },
-  //     '/doc': { page: '/doc' },
-  //   }
-  // },
-  // trailingSlash: true
+  images: {
+    loader: "custom",
+    imageSizes: [1080],
+    deviceSizes: [1080],
+  },
+  env: {
+    nextImageExportOptimizer_imageFolderPath: "public/images",
+    nextImageExportOptimizer_exportFolderPath: "out",
+    nextImageExportOptimizer_quality: 75,
+    nextImageExportOptimizer_storePicturesInWEBP: false,
+    nextImageExportOptimizer_generateAndUseBlurImages: false,
+  },
 }
