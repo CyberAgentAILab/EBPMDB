@@ -6,29 +6,30 @@
     "build": "ENV=prd next build",
     "start": "next start",
     "lint": "next lint",
-    "out": "ENV=prd next build && next export",
+    "out": "ENV=prd next build && next export && next-image-export-optimizer",
     "static": "cd ./out && npx http-server -p 8000 -o"
   },
   "dependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
-    "@material-ui/icons": "^5.0.0-beta.5",
-    "@mui/icons-material": "^5.2.5",
-    "@mui/material": "^5.2.5",
-    "@mui/styles": "^5.2.3",
-    "@mui/x-data-grid": "^5.8.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.13",
+    "@mui/styles": "^5.10.10",
+    "@mui/x-data-grid": "^5.17.10",
     "gray-matter": "^4.0.3",
-    "next": "12.0.9",
+    "next": "^13.0.2",
+    "next-image-export-optimizer": "^1.0.0",
     "raw-loader": "^4.0.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-markdown": "^7.1.1"
   },
   "devDependencies": {
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
-    "eslint": "8.5.0",
-    "eslint-config-next": "12.0.7",
+    "eslint": "^8.27.0",
+    "eslint-config-next": "^13.0.2",
     "typescript": "4.5.4"
   }
 }
