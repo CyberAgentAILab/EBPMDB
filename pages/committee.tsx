@@ -80,11 +80,26 @@ const committee: FunctionComponent = () => {
           serviceName: github,
           serviceUrl: 'https://github.com/daimoriwaki',
         },
+        {
+        serviceName: pageUrl,
+        serviceUrl: 'https://sites.google.com/site/dmoriwaki/',
+      }
       ],
     },
   ];
 
   const advisers: Member[] = [
+    {
+      name: '伊芸研吾',
+      organization: '慶應義塾大学',
+      avatarUrl: '',
+      accounts: [
+        {
+          serviceName: pageUrl,
+          serviceUrl: 'https://sites.google.com/view/kengoigei/home',
+        }
+    ],
+    },
     {
       name: '杉谷和哉',
       organization: '岩手県立大学',
