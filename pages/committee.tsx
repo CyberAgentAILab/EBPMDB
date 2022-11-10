@@ -1,11 +1,14 @@
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
+import cyberagentLogoSrc from '../public/images/cyberagent_logo.png'
+import ufjLogoSrc from '../public/images/ufj_logo.png'
 import {Container, Typography, Card, CardContent, CardActions, Avatar, Grid, IconButton, Box, Link} from '@mui/material'
 import PersonIcon from '@mui/icons-material/Person'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import GithubIcon from '@mui/icons-material/GitHub'
 import LanguageIcon from '@mui/icons-material/Language'
+import ExportImage from 'next-image-export-optimizer'
 import { FunctionComponent } from 'react'
 
 const committee: FunctionComponent = () => {
@@ -263,18 +266,28 @@ const committee: FunctionComponent = () => {
             <IconButton
               href="https://www.cyberagent.co.jp/"
               target="_blank"
-              sx={{ borderRadius: "4px", border: "1px solid #cfd8dc", }}
+              sx={{ borderRadius: "4px", border: "1px solid #cfd8dc", px: 8, }}
             >
-              <img src="/EBPMDB/cyberagent_logo.png" width="75%" alt="株式会社サイバーエージェント" />
+              <ExportImage
+                src={cyberagentLogoSrc}
+                useWebp={false}
+                placeholder="empty"
+                style={{ width: '100%', height: "auto" }}
+                alt="株式会社サイバーエージェント" />
             </IconButton>
           </Grid>
           <Grid item xs={8} sm={4} md={4}>
             <IconButton
               href="https://www.murc.jp/"
               target="_blank"
-              sx={{ borderRadius: "4px", border: "1px solid #cfd8dc", }}
+              sx={{ borderRadius: "4px", border: "1px solid #cfd8dc", px: 8, }}
             >
-              <img src="/EBPMDB/ufj_logo.png" width="75%" alt="三菱UFJリサーチ&コンサルティング" />
+              <ExportImage
+                src={ufjLogoSrc}
+                useWebp={false}
+                placeholder="empty"
+                style={{ width: '100%', height: "auto" }}
+                alt="三菱UFJリサーチ&コンサルティング" />
             </IconButton>
           </Grid>
         </Grid>
