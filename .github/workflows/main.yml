@@ -2,7 +2,7 @@ name: Deploy Next.js app
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
           node-version: 16.x
 
       - name: Install NPM packages
-        run: npm install
+        run: npm install --save --legacy-peer-deps
 
       - name: Build Next.js app
         run: npm run build
