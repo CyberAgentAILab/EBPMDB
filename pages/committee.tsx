@@ -287,6 +287,7 @@ const committee: FunctionComponent = () => {
                 src={cyberagentLogoSrc}
                 useWebp={false}
                 placeholder="empty"
+                unoptimized={true}
                 style={{ width: '100%', height: "auto" }}
                 alt="株式会社サイバーエージェント" />
             </IconButton>
@@ -301,6 +302,7 @@ const committee: FunctionComponent = () => {
                 src={ufjLogoSrc}
                 useWebp={false}
                 placeholder="empty"
+                unoptimized={true}
                 style={{ width: '100%', height: "auto" }}
                 alt="三菱UFJリサーチ&コンサルティング" />
             </IconButton>
