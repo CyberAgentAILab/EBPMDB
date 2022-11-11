@@ -175,7 +175,7 @@ const committee: FunctionComponent = () => {
 
   return (
     <>
-      <Header title="運営主体について" description="" />
+      <Header title="運営主体について" />
       <Navigation />
       <Container sx={{ m: 'auto', width: '100%', maxWidth: 1024 }}>
         <Typography component='h1' variant='h4' sx={{ marginTop: '2em' }}>

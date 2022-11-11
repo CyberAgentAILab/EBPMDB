@@ -9,7 +9,7 @@ import { FunctionComponent } from 'react'
 const SMS: FunctionComponent = () => {
   return (
     <>
-      <Header title="証拠の強さについて" description="" />
+      <Header title="証拠の強さについて" />
       <Navigation />
       <Container sx={{ m: 'auto' }}>
         <Typography component="h2" variant="h2" sx={{ my: 8 }}>
