@@ -1,3 +1,4 @@
+import Header from '../components/header'
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 import cyberagentLogoSrc from '../public/images/cyberagent_logo.png'
@@ -174,6 +175,7 @@ const committee: FunctionComponent = () => {
 
   return (
     <>
+      <Header title="運営主体について" description="" />
       <Navigation />
       <Container sx={{ m: 'auto', width: '100%', maxWidth: 1024 }}>
         <Typography component='h1' variant='h4' sx={{ marginTop: '2em' }}>

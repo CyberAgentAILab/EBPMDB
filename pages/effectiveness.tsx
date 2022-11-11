@@ -1,3 +1,4 @@
+import Header from '../components/header'
 import Navigation from '../components/navigation'
 import { Container } from '@mui/material'
 import { Typography, Grid, Link } from '@mui/material'
@@ -8,6 +9,7 @@ import { FunctionComponent } from 'react'
 const SMS: FunctionComponent = () => {
   return (
     <>
+      <Header title="効果について" description="" />
       <Navigation />
       <Container sx={{ m: 'auto' }}>
         <Typography component="h2" variant="h2" sx={{ my: 8 }}>
