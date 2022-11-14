@@ -1,3 +1,4 @@
+import Header from '../../components/header'
 import { FunctionComponent } from 'react'
 import fs from 'fs'
 import matter from 'gray-matter'
@@ -17,6 +18,7 @@ interface IProps {
 const Document: FunctionComponent<IProps> = ({ doc }) => {
   return (
     <>
+      <Header title={doc.meta.title} description={doc.meta.description} />
       <Navigation />
       <Container sx={{ m: 'auto', width: '100%', maxWidth: 1024 }}>
         <Typography component="h1" variant="h4" sx={{ marginTop: '2em' }}>
