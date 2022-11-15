@@ -5,7 +5,7 @@ const Header = ({
   title="",
   description="EBPMデータベースは、証拠に基づく政策を推進するためのプラットフォームです。",
   url="https://cyberagentailab.github.io/EBPMDB/",
-  imgUrl="/EBPMDB/EBPM_ogp_221107_01.png",
+  imgUrl="/EBPM_ogp_221107_01.png",
   imgWidth=1280,
   imgHeight=640
 }) => (
@@ -19,8 +19,8 @@ const Header = ({
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#ffffff"/>
       <meta property="og:url" content={url} />
-      <meta property="og:title" content={title} />
-      <meta property="og:site_name" content={title} />
+      <meta property="og:title" content={`${title + (title !== '' ? ' | ' : '')}EBPMデータベース`} />
+      <meta property="og:site_name" content={`${title + (title !== '' ? ' | ' : '')}EBPMデータベース`} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:image" content={imgUrl} />
