@@ -5,6 +5,7 @@ description: "育児休業給付の所得代替率の増加による女性の前
 date: "2022-11-10" 
 category: "fertility" 
 categoryLabel: "少子化対策" 
+tables: [
   {
     "title": "女性の育休後前職復職率",
     "effectiveness": "効果なし", 
