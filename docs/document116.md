@@ -11,7 +11,6 @@ tables: [
     "effectiveness": "効果あり",
     "strength": 4
   },
-  tables: [
   {
     "title": "父親の生活満足度",
     "effectiveness": "効果なし",
