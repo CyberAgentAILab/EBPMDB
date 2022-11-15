@@ -1,6 +1,6 @@
 ---
 id: "10"
-title: "自発学習を促すためのノートPC配布"
+title: "ノートPC配布"
 description: "自発的な学習を促進することを目的として子どもたちに個人用ノートPCを提供するOLPC（One Laptop per Child）プログラムの効果"
 date: "2022-02-06"
 category: "education"
@@ -77,7 +77,7 @@ OLPC（One Laptop per Child）プログラムは自発的な学習を促進す�
 - PCの使用時間が増えると家事以外の活動時間が減少する(10%水準で有意)。
 
 ## 研究の弱点
-- 配布された生徒から配布されなかった生徒へのスピルオーバー効果を算出する際の「親しい友達」の有無は自己申告なので必ずしも信頼できない
+- 配布された生徒から配布されなかった生徒へのスピルオーバー効果を算出する際の「親しい友達」の有無は自己申告なので必ずしも信頼できない。
 
 ## 書誌情報
 - Beuermann, D. W., Cristia, J., Cueto, S., Malamud, O., & Cruz-Aguayo, Y. (2015). [One laptop per child at home: Short-term impacts from a randomized experiment in Peru](https://www.aeaweb.org/articles?id=10.1257/app.20130267). *American Economic Journal: Applied Economics*, 7(2): 53-80.
