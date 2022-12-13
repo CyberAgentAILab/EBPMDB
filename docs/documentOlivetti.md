@@ -15,72 +15,72 @@ tables: [
     "title": "（育児休業期間）雇用率で測ったジェンダーギャップ",
     "effectiveness": "効果なし",
     "strength": 2
-  }
+  },
 　{
     "title": "（育児休業期間）賃金で測ったジェンダーギャップ",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
 　{
     "title": "（育児休業期間）合計特殊出生率",
     "effectiveness": "効果なし",
     "strength": 2
-  }
+  },
   {
     "title": "（育休期間のうち所得支援が行われる割合）女性の雇用率",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
   {
     "title": "（育休期間のうち所得支援が行われる割合）雇用率で測ったジェンダーギャップ",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
   {
     "title": "（育休期間のうち所得支援が行われる割合）賃金で測ったジェンダーギャップ",
     "effectiveness": "効果なし",
     "strength": 2
-  }
+  },
   {
     "title": "（育休期間のうち所得支援が行われる割合）合計特殊出生率",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
   {
     "title": "（出産前収入のうち育休期間中の所得支援で代替される割合）女性の雇用率",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
 　{
     "title": "（出産前収入のうち育休期間中の所得支援で代替される割合）雇用率で測ったジェンダーギャップ",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
 　{
     "title": "（出産前収入のうち育休期間中の所得支援で代替される割合）賃金で測ったジェンダーギャップ",
     "effectiveness": "効果なし",
     "strength": 2
-  }
+  },
   {
     "title": "（出産前収入のうち育休期間中の所得支援で代替される割合）合計特殊出生率",
     "effectiveness": "効果なし",
     "strength": 2
-  }
+  },
   {
     "title": "（子育て支援施策）女性の雇用率",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
   {
     "title": "（子育て支援施策）雇用率で測ったジェンダーギャップ",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
   {
     "title": "（子育て支援施策）賃金で測ったジェンダーギャップ",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
   {
     "title": "（子育て支援施策）合計特殊出生率",
     "effectiveness": "効果あり",
