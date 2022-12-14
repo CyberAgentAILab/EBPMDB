@@ -65,6 +65,11 @@ tables: [
     "effectiveness": "効果なし",
     "strength": 2
   },
+  {
+    "title": "（子育て支援施策）女性の雇用率",
+    "effectiveness": "効果あり",
+    "strength": 2
+  }
 ]
 
 points:
