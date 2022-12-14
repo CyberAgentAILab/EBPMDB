@@ -7,8 +7,32 @@ category: "fertility"
 categoryLabel: "少子化対策" 
 tables: [
   {
-    "title": "女性の雇用率",
-    "effectiveness": "効果あり", 
+    "title": "（育児休業期間）女性の雇用率", # 評価指標の名称を簡潔に記入してください。
+    "effectiveness": "効果あり", # 期待される効果があったことが確認された場合は"効果あり"、期待される効果がなかったり、逆効果だったことが確認された場合は"効果なし"、状況によって効果があったりなかったりする場合は"ミックス"、検出力不足や研究の不備によって結論が出せない場合は"不明" としてください。
+    "strength": 2 # 証拠の強さは https://cyberagentailab.github.io/EBPMDB/sms を参照してください。
+  },
+  {
+   "title": "（育児休業期間）雇用率で測ったジェンダーギャップ",
+   "effectiveness": "効果なし",
+   "strength": 2
+  },
+  {
+    "title": "(育児休業期間)賃金で測ったジェンダーギャップ",
+    "effectiveness": "効果あり",
+    "strength": 2
+  },
+  {
+    "title": "（育児休業期間）合計特殊出生率",
+    "effectiveness": "効果なし",
+    "strength": 2
+  },
+  {
+    "title": "（育休期間のうち所得支援が行われる割合）女性の雇用率",
+    "effectiveness": "効果あり",
+    "strength": 2
+  },  {
+    "title": "（育休期間のうち所得支援が行われる割合）雇用率で測ったジェンダーギャップ",
+    "effectiveness": "効果あり",
     "strength": 2
   }, 
   {
@@ -16,14 +40,49 @@ tables: [
     "effectiveness": "効果なし",
     "strength": 2
   },
-　{
-    "title": "賃金で測ったジェンダーギャップ",
+  {
+    "title": "（育休期間のうち所得支援が行われる割合）合計特殊出生率",
     "effectiveness": "効果あり",
     "strength": 2
   },
-　{
-    "title": "合計特殊出生率",
+  {
+    "title": "（出産前収入のうち育休期間中の所得支援で代替される割合）女性の雇用率",
+    "effectiveness": "効果あり",
+    "strength": 2
+  },
+  {
+    "title": "（出産前収入のうち育休期間中の所得支援で代替される割合）雇用率で測ったジェンダーギャップ",
+    "effectiveness": "効果あり",
+    "strength": 2
+  },
+  {
+    "title": "（出産前収入のうち育休期間中の所得支援で代替される割合）賃金で測ったジェンダーギャップ",
     "effectiveness": "効果なし",
+    "strength": 2
+  },
+  {
+    "title": "（出産前収入のうち育休期間中の所得支援で代替される割合）合計特殊出生率",
+    "effectiveness": "効果なし",
+    "strength": 2
+  },
+  {
+    "title": "（子育て支援施策）女性の雇用率",
+    "effectiveness": "効果あり",
+    "strength": 2
+  },
+  {
+    "title": "（子育て支援施策）雇用率で測ったジェンダーギャップ",
+    "effectiveness": "効果あり",
+    "strength": 2
+  },  
+  {
+    "title": "（子育て支援施策）賃金で測ったジェンダーギャップ",
+    "effectiveness": "効果あり",
+    "strength": 2
+  },
+  {
+    "title": "（子育て支援施策）合計特殊出生率",
+    "effectiveness": "効果あり",
     "strength": 2
   }
 ]
