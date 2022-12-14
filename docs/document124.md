@@ -15,7 +15,17 @@ tables: [
     "title": "(育児休業期間)賃金で測ったジェンダーギャップ",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
+  {
+    "title": "（育児休業期間）合計特殊出生率",
+    "effectiveness": "効果なし",
+    "strength": 2
+  },
+  {
+    "title": "（育休期間のうち所得支援が行われる割合）女性の雇用率",
+    "effectiveness": "効果あり",
+    "strength": 2
+  },
 ]
 
 points:
