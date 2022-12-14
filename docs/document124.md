@@ -1,7 +1,7 @@
 ---
 id: "124"
 title: "育休期間" 
-description: "育児休業期間の長さが、女性の雇用率、ジェンダーギャップ、出生率に与える影響"
+description: "育児休業期間の長さが、女性の雇用率、ジェンダーギャップ、出生率に与える影響" 
 date: "2022-12-13" 
 category: "fertility" 
 categoryLabel: "少子化対策" 
@@ -9,7 +9,7 @@ tables: [
   {
     "title": "女性の雇用率",
     "effectiveness": "効果あり", 
-    "strength": 2 
+    "strength": 2
   }, 
   {
     "title": "雇用率で測ったジェンダーギャップ",
