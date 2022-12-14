@@ -55,6 +55,11 @@ tables: [
     "effectiveness": "効果あり",
     "strength": 2
   },
+  {
+    "title": "（出産前収入のうち育休期間中の所得支援で代替される割合）賃金で測ったジェンダーギャップ",
+    "effectiveness": "効果なし",
+    "strength": 2
+  }
 ]
 
 points:
