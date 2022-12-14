@@ -1,12 +1,11 @@
 ---
-id: "124"
+id: "127"
 title: "子育て支援施策" 
 description: "子育て支援施策が、女性の雇用率、ジェンダーギャップ、出生率に与える影響"
 date: "2022-12-13" 
 category: "fertility" 
 categoryLabel: "少子化対策" 
 tables: [
-  {
   {
     "title": "女性の雇用率",
     "effectiveness": "効果あり",
