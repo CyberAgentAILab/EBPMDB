@@ -69,7 +69,12 @@ tables: [
     "title": "（子育て支援施策）女性の雇用率",
     "effectiveness": "効果あり",
     "strength": 2
-  }
+  },
+  {
+    "title": "（子育て支援施策）雇用率で測ったジェンダーギャップ",
+    "effectiveness": "効果あり",
+    "strength": 2
+  },
 ]
 
 points:
