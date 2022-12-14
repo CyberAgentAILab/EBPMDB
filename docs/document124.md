@@ -12,11 +12,6 @@ tables: [
     "strength": 2 # 証拠の強さは https://cyberagentailab.github.io/EBPMDB/sms を参照してください。
   },
   {
-   "title": "（育児休業期間）雇用率で測ったジェンダーギャップ",
-   "effectiveness" "効果なし",
-   "strength": 2
-  },
-  {
     "title": "(育児休業期間)賃金で測ったジェンダーギャップ",
     "effectiveness": "効果あり",
     "strength": 2
