@@ -18,7 +18,7 @@ tables: [
 
 "title": "熱中症による死亡率",
 
-"effectiveness": "効果あり",
+"effectiveness": "副作用",
 
 "strength": 3
 
