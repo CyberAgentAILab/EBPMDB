@@ -4,8 +4,9 @@ import {
   RemoveCircle,
   Circle,
   Help,
+  Error,
 } from '@mui/icons-material'
-import { red, green, blueGrey } from '@mui/material/colors'
+import { red, green, blueGrey, orange } from '@mui/material/colors'
 
 export default function EvidenceTableEffectiveness(props: {
   effectiveness: string
@@ -69,7 +70,13 @@ export default function EvidenceTableEffectiveness(props: {
           </svg>
         )
         break
-
+      case '副作用':
+        return (
+          <div>
+            <Error sx={{ color: orange }} />
+          </div>
+        )
+        break
       default:
         return <p>failed</p>
     }
