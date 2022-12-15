@@ -14,6 +14,7 @@ export default function EvidenceTableEffectiveness(props: {
   const { effectiveness } = props
   const altGreen = green[500]
   const altGray = blueGrey[400]
+  const altOrange = orange[400]
 
   const component = function (ef: string) {
     switch (ef) {
@@ -73,7 +74,7 @@ export default function EvidenceTableEffectiveness(props: {
       case '副作用':
         return (
           <div>
-            <Error sx={{ color: orange }} />
+            <Error sx={{ color: altOrange }} />
           </div>
         )
         break
