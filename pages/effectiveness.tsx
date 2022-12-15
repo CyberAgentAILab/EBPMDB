@@ -16,7 +16,7 @@ const SMS: FunctionComponent = () => {
           効果について
         </Typography>
         <Typography component="p" variant="body1" sx={{ my: 8, fontSize: 18 }}>
-          各分析の結果は直感的にわかりやすい4つの分類で示しています。
+          各分析の結果は直感的にわかりやすい5つの分類で示しています。
         </Typography>
         <Grid
           container
@@ -52,6 +52,12 @@ const SMS: FunctionComponent = () => {
           </Grid>
           <Grid item xs={1} md={1} sx={{ py: { xs: 0, md: 4 } }}>
             <EvidenceTableEffectiveness effectiveness="不明" />
+          </Grid>
+          <Grid item xs={11} md={1} sx={{ py: { xs: 0, md: 4 } }}>
+            副作用
+          </Grid>
+          <Grid item xs={12} md={10} sx={{ py: 4 }}>
+          介入目的以外のアウトカムにおいて意図しない効果があったことを示します。多くの場合、統計的に有意であり、実質的にも無視できない大きさの効果であることを示します。
           </Grid>
           <Grid item xs={11} md={1} sx={{ py: { xs: 0, md: 4 } }}>
             不明
