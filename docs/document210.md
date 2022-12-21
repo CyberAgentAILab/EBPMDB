@@ -71,6 +71,6 @@ contacts:
 - 
 
 ## 書誌情報
-- Iizuka, T., & Shigeoka, H. (forthcoming). [Is Zero a Special Price? Evidence from Child Healthcare](https://www.aeaweb.org/articles?id=10.1257/app.20210184&&from=f#:~:text=We%20test%20the%20presence%20of,increasing%20inappropriate%20use%20of%20antibiotics.). *American Economic Journal: Applied Economics*.
+- Iizuka, T., & Shigeoka, H. (2022). [Is Zero a Special Price? Evidence from Child Healthcare](https://www.aeaweb.org/articles?id=10.1257/app.20210184&&from=f#:~:text=We%20test%20the%20presence%20of,increasing%20inappropriate%20use%20of%20antibiotics.). *American Economic Journal: Applied Economics*, 14(4), 381–410.
 
 
