@@ -18,7 +18,7 @@ tables: [
 
 "title": "子供の医療費における自己負担割合が減少したときの医療需要の変化",
 
-"effectiveness": "効果あり",
+"effectiveness": "副作用",
 
 "strength": 3
 
@@ -26,7 +26,7 @@ tables: [
 
 "title": "子供の医療費における自己負担割合が増加したときの医療需要の変化",
 
-"effectiveness": "効果あり",
+"effectiveness": "副作用",
 
 "strength": 3
 
