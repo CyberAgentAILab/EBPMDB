@@ -16,17 +16,17 @@ tables: [
 
 {
 
-"title": "僻地での医師の供給の減少",
+"title": "僻地での医師の供給",
 
-"effectiveness": "効果あり",
+"effectiveness": "副作用",
 
 "strength": 3
 
 },{
 
-"title": "健康リスクの悪化",
+"title": "健康リスク",
 
-"effectiveness": "効果あり",
+"effectiveness": "副作用",
 
 "strength": 3
 
