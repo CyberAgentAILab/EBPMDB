@@ -18,7 +18,7 @@ tables: [
 
 title: "月間の介護費用総額",
 
-effectiveness: "効果あり",
+effectiveness: "副作用",
 
 strength: 2
 
@@ -26,7 +26,7 @@ strength: 2
 
 title: "利用したサービスの種類",
 
-effectiveness: "効果あり",
+effectiveness: "副作用",
 
 strength: 2
 
@@ -34,7 +34,7 @@ strength: 2
 
 title: "月間のサービス利用日数",
 
-effectiveness: "効果あり",
+effectiveness: "副作用",
 
 strength: 2
 
@@ -50,7 +50,7 @@ strength: 2
 
 title: "サービス日数ごとの月額費用",
 
-effectiveness: "効果あり",
+effectiveness: "副作用",
 
 strength: 2
 

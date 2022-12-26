@@ -16,7 +16,7 @@ tables: [
 
 {
 "title": 医療サービスの利用",
-"effectiveness": "効果あり",
+"effectiveness": "副作用",
 "strength": 4
 },
 
