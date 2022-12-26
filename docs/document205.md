@@ -42,7 +42,7 @@ strength: 2
 
 title: "サービスの種類ごとの月額費用",
 
-effectiveness: "効果あり",
+effectiveness: "副作用",
 
 strength: 2
 
