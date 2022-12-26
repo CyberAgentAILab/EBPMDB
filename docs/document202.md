@@ -18,7 +18,7 @@ tables: [
 
 "title": "子供の体重",
 
-"effectiveness": "効果あり",
+"effectiveness": "副作用",
 
 "strength": 4
 
@@ -26,7 +26,7 @@ tables: [
 
 "title": "子育てに関する悩みを持つ母親の数",
 
-"effectiveness": "効果あり",
+"effectiveness": "副作用",
 
 "strength": 4
 
