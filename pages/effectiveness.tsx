@@ -51,13 +51,16 @@ const SMS: FunctionComponent = () => {
             介入効果は異質性を示すことが多くあります。例えば、男性には効果があったが女性にはなかった、若者には効果があるが高齢者にはなかった、など条件によって結論が異なる場合ミックスとしています。
           </Grid>
           <Grid item xs={1} md={1} sx={{ py: { xs: 0, md: 4 } }}>
-            <EvidenceTableEffectiveness effectiveness="不明" />
+            <EvidenceTableEffectiveness effectiveness="副作用" />
           </Grid>
           <Grid item xs={11} md={1} sx={{ py: { xs: 0, md: 4 } }}>
             副作用
           </Grid>
           <Grid item xs={12} md={10} sx={{ py: 4 }}>
           介入目的以外のアウトカムにおいて意図しない効果があったことを示します。多くの場合、統計的に有意であり、実質的にも無視できない大きさの効果であることを示します。
+          </Grid>
+          <Grid item xs={1} md={1} sx={{ py: { xs: 0, md: 4 } }}>
+            <EvidenceTableEffectiveness effectiveness="不明" />
           </Grid>
           <Grid item xs={11} md={1} sx={{ py: { xs: 0, md: 4 } }}>
             不明
