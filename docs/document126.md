@@ -9,12 +9,12 @@ tables: [
   {
     "title": "出生率", # 評価指標の名称を簡潔に記入してください。
     "effectiveness": "効果あり", # 期待される効果があったことが確認された場合は"効果あり"、期待される効果がなかったり、逆効果だったことが確認された場合は"効果なし"、状況によって効果があったりなかったりする場合は"ミックス"、検出力不足や研究の不備によって結論が出せない場合は"不明" としてください。
-    "strength": "その他" # 証拠の強さは https://cyberagentailab.github.io/EBPMDB/sms を参照してください。
+    "strength": "0" # 証拠の強さは https://cyberagentailab.github.io/EBPMDB/sms を参照してください。
   },  # 複数評価指標がある場合は、カンマで区切って追記してください。
   {
     "title": "労働参加率",
     "effectiveness": "副作用",
-    "strength": "その他"
+    "strength": "0"
   }
 ]
 
