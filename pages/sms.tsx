@@ -30,6 +30,9 @@ const SMS: FunctionComponent = () => {
           </Link>
           ）の解説を再掲しています。
         </Typography>
+        <Typography component="p" variant="body1" sx={{ my: 8, fontSize: 18 }}>
+        当データベースでは、上記のような実験的・準実験的アプローチに基づく因果推論に関する研究に含まれない、構造推定アプローチなどに基づく研究についても、「その他」として取り上げます。双方のアプローチを含んだ研究については「その他」に含め、実験的・準実験的アプローチによる結果を概要に記載するものとします。
+        </Typography>
         <Grid
           container
           spacing={2}
@@ -112,6 +115,27 @@ const SMS: FunctionComponent = () => {
             </Typography>
           </Grid>
         </Grid>
+        <Grid
+            container
+            spacing={2}
+            sx={{ py: 4, borderTop: 1, borderColor: 'grey.500' }}
+            >
+            <Grid item xs={12} md={2} sx={{ py: { xs: 0, md: 4 } }}>
+              <Typography
+                component="p"
+                variant="subtitle1"
+                sx={{ fontWeight: 'bold' }}
+              >
+                その他
+              </Typography>
+              <EvidenceTableStrength strength={0} />
+            </Grid>
+            <Grid item xs={12} md={10} sx={{ py: 4 }}>
+              <Typography component="p" variant="body1">
+              上記のような実験的・準実験的アプローチを採用していないものの、実際のデータと経済学などに基づく数理モデルを組み合わせることによって、政策効果の推定や予測を行なっている研究。
+              </Typography>
+            </Grid>
+          </Grid>
       </Container>
       <Footer />
     </>
