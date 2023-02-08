@@ -30,6 +30,9 @@ const SMS: FunctionComponent = () => {
           </Link>
           ）の解説を再掲しています。
         </Typography>
+        <Typography component="p" variant="body1" sx={{ my: 8, fontSize: 18 }}>
+        なお、実験的・準実験的アプローチに基づく因果推論を用いない構造推定アプローチなどに基づく分析は「その他」として取り上げます。
+        </Typography>
         <Grid
           container
           spacing={2}
@@ -112,6 +115,27 @@ const SMS: FunctionComponent = () => {
             </Typography>
           </Grid>
         </Grid>
+        <Grid
+            container
+            spacing={2}
+            sx={{ py: 4, borderTop: 1, borderColor: 'grey.500' }}
+            >
+            <Grid item xs={12} md={2} sx={{ py: { xs: 0, md: 4 } }}>
+              <Typography
+                component="p"
+                variant="subtitle1"
+                sx={{ fontWeight: 'bold' }}
+              >
+                その他
+              </Typography>
+              <EvidenceTableStrength strength={0} />
+            </Grid>
+            <Grid item xs={12} md={10} sx={{ py: 4 }}>
+              <Typography component="p" variant="body1">
+              実験的・準実験的アプローチではなく、実際のデータと経済学などに基づく数理モデルを組み合わせることによって、政策効果の推定や予測を行なっている分析。典型的には構造推定モデルを用いた政策シミュレーション。
+              </Typography>
+            </Grid>
+          </Grid>
       </Container>
       <Footer />
     </>
