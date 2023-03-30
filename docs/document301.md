@@ -17,7 +17,7 @@ tables: [
     "strength": 3
   },{
     "title": "１日に販売されたその他肉の重さ",
-    "effectiveness": "効果あり",
+    "effectiveness": "効果なし",
     "strength": 3
   },{
     "title": "１日あたりのその他肉の売上",
