@@ -322,7 +322,7 @@ const committee: FunctionComponent = () => {
                 placeholder="empty"
                 unoptimized={true}
                 style={{ width: '100%', height: "auto" }}
-                alt="一般社団法人 エビデンス共創機構" />
+                alt="エビデンス共創機構 Center for Evidence Co-creation" />
             </IconButton>
           </Grid>
         </Grid>
