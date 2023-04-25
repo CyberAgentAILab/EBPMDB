@@ -3,7 +3,8 @@ import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 import cyberagentLogoSrc from '../public/images/cyberagent_logo.png'
 import ufjLogoSrc from '../public/images/ufj_logo.png'
-import {Container, Typography, Card, CardContent, CardActions, Avatar, Grid, IconButton, Box, Link} from '@mui/material'
+import cecLogoSrc from '../public/images/cec_logo.png'
+import { Container, Typography, Card, CardContent, CardActions, Avatar, Grid, IconButton, Box, Link } from '@mui/material'
 import PersonIcon from '@mui/icons-material/Person'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import FacebookIcon from '@mui/icons-material/Facebook'
@@ -18,7 +19,7 @@ const committee: FunctionComponent = () => {
   const facebook = Symbol()
   const pageUrl = Symbol()
   type ServiceSymbols = typeof github | typeof twitter | typeof facebook | typeof pageUrl
-  
+
   interface AccountService {
     serviceName: ServiceSymbols
     serviceUrl: string
@@ -82,9 +83,9 @@ const committee: FunctionComponent = () => {
           serviceUrl: 'https://github.com/daimoriwaki',
         },
         {
-        serviceName: pageUrl,
-        serviceUrl: 'https://sites.google.com/site/dmoriwaki/',
-      }
+          serviceName: pageUrl,
+          serviceUrl: 'https://sites.google.com/site/dmoriwaki/',
+        }
       ],
     },
   ];
@@ -99,7 +100,7 @@ const committee: FunctionComponent = () => {
           serviceName: pageUrl,
           serviceUrl: 'https://sites.google.com/view/kengoigei/home',
         }
-    ],
+      ],
     },
     {
       name: '杉谷和哉',
@@ -184,7 +185,7 @@ const committee: FunctionComponent = () => {
         <Typography component="p" variant="body1" sx={{ my: '1.5em' }}>
           EBPMデータベースの運営は有志によって行われています。
         </Typography>
-        <Typography component='h2' variant='h5' sx = {{ marginTop: '2.5em' }}>
+        <Typography component='h2' variant='h5' sx={{ marginTop: '2.5em' }}>
           運営主体チーム
         </Typography>
         <Typography component="p" variant="body1" sx={{ my: '1.5em' }}>
@@ -204,12 +205,12 @@ const committee: FunctionComponent = () => {
                       }
                     </Grid>
                     <Grid item columns={{ xs: 8, sm: 8, md: 8 }}>
-                    <Typography gutterBottom variant="caption" component="div">
-                      {member.organization}
-                    </Typography>
-                    <Typography gutterBottom variant="h6" component="div">
-                      {member.name}
-                    </Typography>
+                      <Typography gutterBottom variant="caption" component="div">
+                        {member.organization}
+                      </Typography>
+                      <Typography gutterBottom variant="h6" component="div">
+                        {member.name}
+                      </Typography>
                     </Grid>
                   </Grid>
                 </CardContent>
@@ -228,7 +229,7 @@ const committee: FunctionComponent = () => {
             </Grid>
           ))}
         </Grid>
-        <Typography component='h2' variant='h5' sx = {{ marginTop: '2.5em' }}>
+        <Typography component='h2' variant='h5' sx={{ marginTop: '2.5em' }}>
           アドバイザー
         </Typography>
         <Typography component="p" variant="body1" sx={{ my: '1.5em' }}>
@@ -248,12 +249,12 @@ const committee: FunctionComponent = () => {
                       }
                     </Grid>
                     <Grid item columns={{ xs: 8, sm: 8, md: 8 }}>
-                    <Typography gutterBottom variant="caption" component="div">
-                      {member.organization}
-                    </Typography>
-                    <Typography gutterBottom variant="h6" component="div">
-                      {member.name}
-                    </Typography>
+                      <Typography gutterBottom variant="caption" component="div">
+                        {member.organization}
+                      </Typography>
+                      <Typography gutterBottom variant="h6" component="div">
+                        {member.name}
+                      </Typography>
                     </Grid>
                   </Grid>
                 </CardContent>
@@ -272,14 +273,14 @@ const committee: FunctionComponent = () => {
             </Grid>
           ))}
         </Grid>
-        <Typography component='h2' variant='h5' sx = {{ marginTop: '2em' }}>
+        <Typography component='h2' variant='h5' sx={{ marginTop: '2em' }}>
           協働機関
         </Typography>
         <Typography component="p" variant="body1" sx={{ my: '1.5em' }}>
           協働機関は所属社員のEBPMデータベースに関する活動を支援しています。
         </Typography>
-        <Grid container spacing={{ xs: 1, md: 4 }} columns={{ xs: 8, sm: 8, md: 8 }}>
-          <Grid item xs={8} sm={4} md={4}>
+        <Grid container spacing={{ xs: 1, md: 4 }} columns={{ xs: 12, sm: 12, md: 12 }}>
+          <Grid item xs={12} sm={6} md={4}>
             <IconButton
               href="https://www.cyberagent.co.jp/"
               target="_blank"
@@ -294,7 +295,7 @@ const committee: FunctionComponent = () => {
                 alt="株式会社サイバーエージェント" />
             </IconButton>
           </Grid>
-          <Grid item xs={8} sm={4} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <IconButton
               href="https://www.murc.jp/"
               target="_blank"
@@ -307,6 +308,21 @@ const committee: FunctionComponent = () => {
                 unoptimized={true}
                 style={{ width: '100%', height: "auto" }}
                 alt="三菱UFJリサーチ&コンサルティング" />
+            </IconButton>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <IconButton
+              href="https://cec-c.or.jp/"
+              target="_blank"
+              sx={{ borderRadius: "4px", border: "1px solid #cfd8dc", px: 8, }}
+            >
+              <ExportImage
+                src={cecLogoSrc}
+                useWebp={false}
+                placeholder="empty"
+                unoptimized={true}
+                style={{ width: '100%', height: "auto" }}
+                alt="一般社団法人 エビデンス共創機構" />
             </IconButton>
           </Grid>
         </Grid>
