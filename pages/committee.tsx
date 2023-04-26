@@ -4,6 +4,7 @@ import Footer from '../components/footer'
 import cyberagentLogoSrc from '../public/images/cyberagent_logo.png'
 import ufjLogoSrc from '../public/images/ufj_logo.png'
 import cecLogoSrc from '../public/images/cec_logo.png'
+import economicsDesignSrc from '../public/images/economics_design_logo.png'
 import { Container, Typography, Card, CardContent, CardActions, Avatar, Grid, IconButton, Box, Link } from '@mui/material'
 import PersonIcon from '@mui/icons-material/Person'
 import TwitterIcon from '@mui/icons-material/Twitter'
@@ -59,7 +60,7 @@ const committee: FunctionComponent = () => {
           serviceName: pageUrl,
           serviceUrl: 'https://sites.google.com/view/kengoigei/home',
         }
-    ],
+      ],
     },
     {
       name: '井上領介',
@@ -280,7 +281,7 @@ const committee: FunctionComponent = () => {
           協働機関は所属社員のEBPMデータベースに関する活動を支援しています。
         </Typography>
         <Grid container spacing={{ xs: 1, md: 4 }} columns={{ xs: 12, sm: 12, md: 12 }}>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={6} md={6}>
             <IconButton
               href="https://www.cyberagent.co.jp/"
               target="_blank"
@@ -295,7 +296,7 @@ const committee: FunctionComponent = () => {
                 alt="株式会社サイバーエージェント" />
             </IconButton>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={6} md={6}>
             <IconButton
               href="https://www.murc.jp/"
               target="_blank"
@@ -310,7 +311,7 @@ const committee: FunctionComponent = () => {
                 alt="三菱UFJリサーチ&コンサルティング" />
             </IconButton>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={6} md={6}>
             <IconButton
               href="https://cec-c.or.jp/"
               target="_blank"
@@ -323,6 +324,21 @@ const committee: FunctionComponent = () => {
                 unoptimized={true}
                 style={{ width: '100%', height: "auto" }}
                 alt="エビデンス共創機構 Center for Evidence Co-creation" />
+            </IconButton>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6}>
+            <IconButton
+              href="https://econ.news/"
+              target="_blank"
+              sx={{ borderRadius: "4px", border: "1px solid #cfd8dc", px: 8, }}
+            >
+              <ExportImage
+                src={economicsDesignSrc}
+                useWebp={false}
+                placeholder="empty"
+                unoptimized={true}
+                style={{ width: '100%', height: "auto" }}
+                alt="Economics Design Inc." />
             </IconButton>
           </Grid>
         </Grid>
