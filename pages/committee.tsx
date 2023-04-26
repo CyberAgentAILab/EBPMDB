@@ -50,6 +50,17 @@ const committee: FunctionComponent = () => {
       ]
     },
     {
+      name: '伊芸研吾',
+      organization: '慶應義塾大学/一般社団法人エビデンス共創機構',
+      avatarUrl: '',
+      accounts: [
+        {
+          serviceName: pageUrl,
+          serviceUrl: 'https://sites.google.com/view/kengoigei/home',
+        }
+    ],
+    },
+    {
       name: '井上領介',
       organization: '三菱UFJリサーチ&コンサルティング',
       avatarUrl: '',
@@ -90,17 +101,6 @@ const committee: FunctionComponent = () => {
   ];
 
   const advisers: Member[] = [
-    {
-      name: '伊芸研吾',
-      organization: '慶應義塾大学',
-      avatarUrl: '',
-      accounts: [
-        {
-          serviceName: pageUrl,
-          serviceUrl: 'https://sites.google.com/view/kengoigei/home',
-        }
-    ],
-    },
     {
       name: '杉谷和哉',
       organization: '岩手県立大学',
