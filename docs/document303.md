@@ -46,13 +46,14 @@ contacts:
 - SMS:3
 - 根拠 
     - 介入企業と非介入企業に分けて介入前後の比較を行っている。
-
+    - ただし差の差分析の前提の成立を確認していない。
+    
 ## サンプル
 - インドのニューデリーにある3つの会社
 
 ## 結果
-- プリンターへの掲示によって、1日当たり・1人当たり4枚の紙使用量が減少した。
-- ブースへの掲示によって、1日当たり・1人当たり6枚の紙使用量が減少した。
+- プリンターへの掲示によって、1日当たり・1人当たり4枚の紙使用量が減少した（27%程度の減少）。
+- ブースへの掲示によって、1日当たり・1人当たり6枚の紙使用量が減少した（55％程度の減少）。
 - ナッジ終了後も効果は継続した。  
 
 ## 研究の弱点
@@ -61,4 +62,4 @@ contacts:
 
 ## 書誌情報
 - Chakravarty, S. and Mishra, R. (2019) " 
-.[Using social norms to reduce paper waste: results from a field experiment in the Indian Information Technology sector](https://www.sciencedirect.com/science/article/abs/pii/S0921800918310978)." Ecological Economies. 164, 106356. 
+.[Using social norms to reduce paper waste: results from a field experiment in the Indian Information Technology sector](https://www.sciencedirect.com/science/article/abs/pii/S0921800918310978)." Ecological Economics. 164, 106356. 
