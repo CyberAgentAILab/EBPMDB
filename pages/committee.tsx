@@ -111,7 +111,7 @@ const committee: FunctionComponent = () => {
     },
     {
       name: '髙橋雅生',
-      organization: '一橋大学',
+      organization: '上智大学',
       avatarUrl: '',
       accounts: [],
     },
