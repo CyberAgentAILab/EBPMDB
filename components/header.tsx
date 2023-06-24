@@ -1,14 +1,32 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import React from 'react'
 
-const Header = ({
+interface Props {
+  title: string,
+  description: string,
+  url: string,
+  imgUrl: string,
+  imgWidth?: number,
+  imgHeight?: number,
+  docnumber?: string
+}
+
+
+const Header: React.FunctionComponent<Props> = ({
   title="",
   description="EBPMデータベースは、証拠に基づく政策を推進するためのプラットフォームです。",
   url="https://cyberagentailab.github.io/EBPMDB/",
-  imgUrl="https://cyberagentailab.github.io/EBPMDB/EBPM_ogp_221107_01.png",
   imgWidth=1280,
-  imgHeight=640
-}) => (
+  imgHeight=640,
+  docnumber
+}) => {
+  const defaultImgUrl="https://cyberagentailab.github.io/EBPMDB/EBPM_ogp_221107_01.png";
+  const imgUrl = docnumber
+    ? `https://cyberagentailab.github.io/EBPMDB/screenshots/${docnumber}.png`
+    : defaultImgUrl;
+
+  return(
   <>
     <Head>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -43,6 +61,7 @@ const Header = ({
       }}
     />
   </>
-)
+  );
+}
 
 export default Header
