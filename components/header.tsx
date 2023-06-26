@@ -3,10 +3,10 @@ import Script from 'next/script'
 import React from 'react'
 
 interface Props {
-  title: string,
-  description: string,
-  url: string,
-  imgUrl: string,
+  title?: string,
+  description?: string,
+  url?: string,
+  imgUrl?: string,
   imgWidth?: number,
   imgHeight?: number,
   docnumber?: string
