@@ -16,10 +16,9 @@ interface IProps {
 }
 
 const Document: FunctionComponent<IProps> = ({ doc }) => {
-  const docnumber = doc.meta.slug.replace('document', '');
   return (
     <>
-      <Header title={doc.meta.title} description={doc.meta.description} docnumber={docnumber} />
+      <Header title={doc.meta.title} description={doc.meta.description} />
       <Navigation />
       <Container sx={{ m: 'auto', width: '100%', maxWidth: 1024 }}>
         <Typography component="h1" variant="h4" sx={{ marginTop: '2em' }}>
