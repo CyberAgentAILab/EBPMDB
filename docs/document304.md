@@ -122,6 +122,6 @@ contacts:
 - 長期的な効果は本研究では不明
 
 ## 書誌情報
-- Kurokawa, H., Igei, K., Kitsuki, A., Kurita, K., Managi, S., Nakamuro, M., & Sakano, A. (2023). Improvement impact of nudges incorporated in environmental education on students’ environmental knowledge, attitudes, and behaviors. Journal of Environmental Management, 325, Part B, 116612. https://doi.org/10.1016/j.jenvman.2022.116612
-- 黒川博文・伊芸研吾・木附晃実・栗田健一・馬奈木俊介・中室牧子・坂野晶 (2022). 「環境教育の効果を高めるナッジ」, RIETIノンテクニカルサマリー. https://www.rieti.go.jp/jp/publications/nts/22e047.html
-
+- Kurokawa, H., Igei, K., Kitsuki, A., Kurita, K., Managi, S., Nakamuro, M., & Sakano, A. (2023). [Improvement impact of nudges incorporated in environmental education on students’ environmental knowledge, attitudes, and behaviors](https://doi.org/10.1016/j.jenvman.2022.116612). *Journal of Environmental Management*, 325, Part B, 116612. 
+- 黒川博文・伊芸研吾・木附晃実・栗田健一・馬奈木俊介・中室牧子・坂野晶 (2022). [「環境教育の効果を高めるナッジ」](https://www.rieti.go.jp/jp/publications/nts/22e047.html
+), *RIETIノンテクニカルサマリー*. 
