@@ -69,7 +69,7 @@ contacts:
 - これらを背景に、生徒が環境問題に主体的に取り組む態度を育む探求型環境教育プログラムを開発し、その有効性を検証した
 
 ## 介入 
-介入群は以下の45分の環境教育プログラムを受講
+介入群は2021年2月に以下の45分の環境教育プログラムを受講
 1. 環境問題の重要性に関する授業（15分）
 1. 「ごみゼロゲーム」（20分）
 	- プラスチックごみ（以下、プラごみ）削減に特化したボードゲーム
@@ -82,6 +82,7 @@ contacts:
 		- 「ナッジとブースト両方」：目標設定、心理的介入の双方
 
 ## 評価指標
+介入前の2020年10月にベースライン調査、介入後の2021年3月にエンドラインの調査を行い、以下の項目を測定した
 - 知識：正誤問題の正解数
 - 向環境行動(レジ袋、ウエットティッシュ、ペットボトルの使用)
 - 環境問題への意識(プラごみによる汚染、省エネ)
@@ -121,6 +122,6 @@ contacts:
 - 長期的な効果は本研究では不明
 
 ## 書誌情報
-- Kurokawa, H., Igei, K., Kitsuki, A., Kurita, K., Managi, S., Nakamuro, M., & Sakano, A. (2023). Improvement impact of nudges incorporated in environmental education on students’ environmental knowledge, attitudes, and behaviors. Journal of Environmental Management, 325, Part B, 116612. https://doi.org/10.1016/j.jenvman.2022.116612
-- 黒川博文・伊芸研吾・木附晃実・栗田健一・馬奈木俊介・中室牧子・坂野晶 (2022). 「環境教育の効果を高めるナッジ」, RIETIノンテクニカルサマリー. https://www.rieti.go.jp/jp/publications/nts/22e047.html
-
+- Kurokawa, H., Igei, K., Kitsuki, A., Kurita, K., Managi, S., Nakamuro, M., & Sakano, A. (2023). [Improvement impact of nudges incorporated in environmental education on students’ environmental knowledge, attitudes, and behaviors](https://doi.org/10.1016/j.jenvman.2022.116612). *Journal of Environmental Management*, 325, Part B, 116612. 
+- 黒川博文・伊芸研吾・木附晃実・栗田健一・馬奈木俊介・中室牧子・坂野晶 (2022). [「環境教育の効果を高めるナッジ」](https://www.rieti.go.jp/jp/publications/nts/22e047.html
+), *RIETIノンテクニカルサマリー*. 
