@@ -144,7 +144,6 @@ contacts:
 
 ## 書誌情報
 - Higuchi, Y., Nakamuro, M., Roever, C., Sasaki, M., & Yashima, T. (2023).[Impact of studying abroad on language skill development: Regression discontinuity evidence from Japanese university students](https://doi.org/10.1016/j.jjie.2023.101284) *Journal of The Japanese and International Economies*,70, 101284
-- Yashima, T., & Zenuk-Nishide, L. (2008). [The impact of learning contexts on proficiency, attitudes, and L2 communication: Creating an imagined international community](https://doi.org/10.1016/j.system.2008.03.006). *
-System*, 36(4), 566-585.
+- Yashima, T., & Zenuk-Nishide, L. (2008). [The impact of learning contexts on proficiency, attitudes, and L2 communication: Creating an imagined international community](https://doi.org/10.1016/j.system.2008.03.006). *System*, 36(4), 566-585.
 - [平成30年度官民協働海外留学支援制度～トビタテ！留学JAPAN日本代表プログラム～募集要項（大学全国コース）](https://www.mext.go.jp/a_menu/kokusai/tobitate/__icsFiles/afieldfile/2017/07/03/1387500_002.pdf)
 - [平成30年度官民協働海外留学支援制度～トビタテ！留学JAPAN日本代表プログラム～募集要項（大学オープンコース）](https://www.mext.go.jp/a_menu/kokusai/tobitate/__icsFiles/afieldfile/2017/07/03/1387500_003.pdf)
