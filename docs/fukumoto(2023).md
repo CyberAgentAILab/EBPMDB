@@ -1,7 +1,7 @@
 ---
 id: # id は空欄のままで結構です。
 title: "若年層に対する選挙啓発葉書"
-description: "投票を促す選挙啓発葉書は若年層の投票率向上に与える影響" 
+description: "投票を促す選挙啓発葉書が若年層の投票率向上に与える影響" 
 date: "2024-2-29"
 category: "politics" 
 categoryLabel: "政治" 
