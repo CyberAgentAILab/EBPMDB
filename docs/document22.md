@@ -15,7 +15,7 @@ tables: [
     "title": "評価指標中間テスト（中期的評価）",
     "effectiveness": "効果あり",
     "strength": 5
-  }
+  },
   {
     "title": "期末テスト（長期的評価）",
     "effectiveness": "ミックス",
