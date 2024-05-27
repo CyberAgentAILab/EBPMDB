@@ -3,24 +3,24 @@ id:
 title: "ディーゼル車規制の影響"
 description: "日本におけるディーゼル車規制の導入が大気質、新車登録、出生体重に与える影響を分析"
 date: "2024-05-19"
-category: "health"
-categoryLabel: "医療"
+category: "environment"
+categoryLabel: "環境"
 tables: 
   [
     {
       "title": "大気質",
       "effectiveness": "効果あり",
-      "strength": 4
+      "strength": 3
     },
     {
       "title": "新車登録",
       "effectiveness": "効果あり",
-      "strength": 4
+      "strength": 3
     },
     {
       "title": "出生体重",
       "effectiveness": "効果あり",
-      "strength": 4
+      "strength": 3
     }
   ]
 points:
@@ -28,7 +28,7 @@ points:
   - ディーゼル車規制の導入により、ディーゼルトラックとバスの新規登録が34%増加した。
   - ディーゼル車規制の導入は、低出生体重の発生率を減少させ、出生体重を平均6g増加させた。
 contacts: 
-  -  
+  - 梅谷隼人(神戸大学)
 ---
 
 
