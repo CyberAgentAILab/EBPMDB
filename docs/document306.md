@@ -1,7 +1,7 @@
 ---
 id: "306"
-title: "ディーゼル車規制の影響"
-description: "日本におけるディーゼル車規制の導入が大気質、新車登録、出生体重に与える影響を分析"
+title: "ディーゼル車規制"
+description: "日本におけるディーゼル車規制の導入が大気質、新車登録、出生体重に与える影響"
 date: "2024-05-19"
 category: "environment"
 categoryLabel: "環境"
