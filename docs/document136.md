@@ -5,7 +5,7 @@ description: "スウェーデンにおいて保育施設の利用料引き下げ
 date: "2024-05-19"
 category: "fertility"
 categoryLabel: "少子化対策"
-tables:[
+tables: [
   {
     "title": "出生率",
     "effectiveness": "効果あり",
@@ -15,7 +15,8 @@ tables:[
     "title": "第2子以降の出産時期",
     "effectiveness": "ミックス",
     "strength": 3
-  }]
+  }
+]
 points:
     - 保育施設の利用料の引き下げにより、出生率が上昇した。
     - 特に低所得層で顕著な増加が見られた。
