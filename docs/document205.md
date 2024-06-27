@@ -8,7 +8,7 @@ description: "介護保険におけるゼロ価格政策によるモラルハザ
 
 date: "2022-03-30"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 

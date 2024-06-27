@@ -8,7 +8,7 @@ description: "COVID-19の休校による児童と家族への影響"
 
 date: "2022-03-31"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 

@@ -8,7 +8,7 @@ description: "節電による熱中症の増加"
 
 date: "2022-10-12"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 
