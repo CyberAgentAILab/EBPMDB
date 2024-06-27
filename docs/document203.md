@@ -8,7 +8,7 @@ description: "介護保険制度の改正の短期的利益と長期的損失"
 
 date: "2022-03-31"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 

@@ -8,7 +8,7 @@ description: "子供の医療費を無料化したことによる医療需要へ
 
 date: "2022-03-29"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 
