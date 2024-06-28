@@ -8,7 +8,7 @@ description: "70歳を超えると医療費の自己負担額が大幅に減少�
 
 date: "2022-03-29"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 
