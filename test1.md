@@ -1,5 +1,5 @@
 id: 
-title: "住宅価格と出生率"
+title: "住宅価格"
 description: "住宅価格の変動が出生率に与える影響"
 date: "2024-06-15"
 category: "fertility"
