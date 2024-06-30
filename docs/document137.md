@@ -1,17 +1,22 @@
 ---
 
 id: "137"
+
 title: "住宅価格"
+
 description: "住宅価格の変動が出生率に与える影響"
+
 date: "2024-06-15"
+
 category: "fertility"
+
 categoryLabel: "少子化対策"
-tables: 
-  [
+
+tables: [
     {
-      "title": "出生率",
-      "effectiveness": "ミックス"
-      "strength": 4
+      title : "出生率",
+      effectiveness: "ミックス",
+      strength: 4
     }
   ]
 points: 
