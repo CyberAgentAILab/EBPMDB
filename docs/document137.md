@@ -14,9 +14,9 @@ categoryLabel: "少子化対策"
 
 tables: [
     {
-      title : "出生率",
-      effectiveness: "ミックス",
-      strength: 4
+      "title": "出生率",
+      "effectiveness": "ミックス",
+      "strength": 4
     }
   ]
 points: 
