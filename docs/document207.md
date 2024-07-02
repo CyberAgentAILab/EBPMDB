@@ -8,7 +8,7 @@ description: "70歳以上の高齢者に対する自己負担割合の軽減措�
 
 date: "2022-03-31"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 

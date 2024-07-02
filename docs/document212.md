@@ -8,7 +8,7 @@ description: "ライバル病院のMRI導入による医師の医療行動への
 
 date: "2022-10-12"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 

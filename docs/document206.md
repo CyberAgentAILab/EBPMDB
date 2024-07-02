@@ -8,7 +8,7 @@ description: "血糖値を基準とした糖尿病リスクの健康診断が医
 
 date: "2022-04-25"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 
