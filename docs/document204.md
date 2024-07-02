@@ -8,7 +8,7 @@ description: "メタボ健診・特定保健指導制度による肥満や心血
 
 date: "2022-03-30"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 

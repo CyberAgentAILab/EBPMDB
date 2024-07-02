@@ -8,7 +8,7 @@ description: "新臨床研修医制度による医師の供給や健康への影
 
 date: "2022-03-29"
 
-category: "heath"
+category: "health"
 
 categoryLabel: "医療"
 
