@@ -47,7 +47,7 @@ tables: [
     "title": "新生児の男女比率（流産の代理変数）",
     "effectiveness": "効果なし",
     "strength": 3
-  }
+  },
   {
     "title": "出産日の調整",
     "effectiveness": "効果なし",
