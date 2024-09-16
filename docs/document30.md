@@ -10,27 +10,27 @@ tables: [
     "title": "教師の収入に対する満足度",
     "effectiveness": "効果あり",
     "strength": 5
-  }
+  },
   {
     "title": "教師の経済的ストレス",
     "effectiveness": "効果あり",
     "strength": 5
-  }
+  },
   {
     "title": "教師の副業の有無と副業に費やした時間",
     "effectiveness": "効果あり",
     "strength": 5
-  }
+  },
   {
     "title": "教師の担当教科に対する理解度",
     "effectiveness": "効果なし",
     "strength": 5
-  }
+  },
   {
     "title": "教師の欠勤",
     "effectiveness": "効果なし",
     "strength": 5
-  }
+  },
   {
     "title": "生徒の学業成績",
     "effectiveness": "効果なし",
