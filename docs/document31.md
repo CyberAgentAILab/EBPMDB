@@ -10,7 +10,7 @@ tables: [
     "title": "生徒の学業成績",
     "effectiveness": "効果なし",
     "strength": 4
-  }
+  },
   {
     "title": "教員の欠勤率",
     "effectiveness": "効果あり",
