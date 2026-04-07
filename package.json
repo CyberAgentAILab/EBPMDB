@@ -4,9 +4,9 @@
   "scripts": {
     "dev": "ENV=dev next dev -p 3001",
     "build": "ENV=prd next build",
-    "start": "next start",
+    "start": "node _local/serve.js",
     "lint": "next lint",
-    "out": "ENV=prd next build && next export && next-image-export-optimizer",
+    "out": "next-image-export-optimizer",
     "static": "node _local/serve.js"
   },
   "dependencies": {
@@ -18,19 +18,28 @@
     "@mui/styles": "^5.10.10",
     "@mui/x-data-grid": "^5.17.10",
     "gray-matter": "^4.0.3",
-    "next": "^13.0.2",
-    "next-image-export-optimizer": "^1.0.0",
+    "next": "^15.5.14",
+    "next-image-export-optimizer": "^1.20.1",
     "raw-loader": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^7.1.1"
   },
   "devDependencies": {
-    "@types/node": "17.0.4",
-    "@types/react": "17.0.38",
-    "eslint": "^8.27.0",
-    "eslint-config-next": "^13.0.2",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.0",
+    "@typescript-eslint/parser": "^8.58.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.5.14",
     "serve": "^14.1.1",
-    "typescript": "4.5.4"
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "overrides": {
+    "yaml": "^2.8.3",
+    "braces": "^3.0.3",
+    "on-headers": "^1.1.0"
   }
 }
