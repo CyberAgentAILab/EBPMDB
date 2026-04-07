@@ -6,7 +6,7 @@
     "build": "ENV=prd next build",
     "start": "next start",
     "lint": "next lint",
-    "out": "ENV=prd next build && next-image-export-optimizer",
+    "out": "next-image-export-optimizer",
     "static": "node _local/serve.js"
   },
   "dependencies": {
@@ -32,6 +32,9 @@
     "eslint-config-next": "^15.5.14",
     "serve": "^14.1.1",
     "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
   },
   "overrides": {
     "yaml": "^2.8.3",
