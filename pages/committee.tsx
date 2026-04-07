@@ -289,7 +289,6 @@ const committee: FunctionComponent = () => {
             >
               <ExportImage
                 src={cyberagentLogoSrc}
-                useWebp={false}
                 placeholder="empty"
                 unoptimized={true}
                 style={{ width: '100%', height: "auto" }}
@@ -304,7 +303,6 @@ const committee: FunctionComponent = () => {
             >
               <ExportImage
                 src={ufjLogoSrc}
-                useWebp={false}
                 placeholder="empty"
                 unoptimized={true}
                 style={{ width: '100%', height: "auto" }}
@@ -319,7 +317,6 @@ const committee: FunctionComponent = () => {
             >
               <ExportImage
                 src={cecLogoSrc}
-                useWebp={false}
                 placeholder="empty"
                 unoptimized={true}
                 style={{ width: '100%', height: "auto" }}
@@ -334,7 +331,6 @@ const committee: FunctionComponent = () => {
             >
               <ExportImage
                 src={economicsDesignSrc}
-                useWebp={false}
                 placeholder="empty"
                 unoptimized={true}
                 style={{ width: '100%', height: "auto" }}
