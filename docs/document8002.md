@@ -2,7 +2,7 @@
 id: "8002"
 title: "スタジアム・アリーナ"
 description: "スタジアム整備が周辺エリアの商業不動産価値に与える影響"
-date: "2025-01-04"
+date: "2026-01-04"
 category: "sports"
 categoryLabel: "スポーツ"
 tables: [
