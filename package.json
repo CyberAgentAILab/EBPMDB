@@ -44,6 +44,7 @@
     "fast-uri": "^3.1.6",
     "@typescript-eslint/typescript-estree": {
       "brace-expansion": "^5.0.7"
-    }
+    },
+    "compression": "^1.8.2"
   }
 }
