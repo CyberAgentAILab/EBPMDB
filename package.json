@@ -15,7 +15,6 @@
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.13",
     "@mui/styles": "^5.10.10",
-    "@mui/x-data-grid": "^5.17.10",
     "gray-matter": "^4.0.3",
     "next": "^15.5.28",
     "next-image-export-optimizer": "^1.21.2",
