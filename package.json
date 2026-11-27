@@ -33,7 +33,7 @@
     "typescript": "^5.0.0"
   },
   "engines": {
-    "node": ">=20.9.0"
+    "node": "^20.9.0 || >=22"
   },
   "overrides": {
     "yaml": "^2.8.3",
@@ -41,9 +41,6 @@
     "on-headers": "^1.1.0",
     "postcss": "^8.5.23",
     "fast-uri": "^3.1.6",
-    "@typescript-eslint/typescript-estree": {
-      "brace-expansion": "^5.0.7"
-    },
     "compression": "^1.8.2"
   }
 }
